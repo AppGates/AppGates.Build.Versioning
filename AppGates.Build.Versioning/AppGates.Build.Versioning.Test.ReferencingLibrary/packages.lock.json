@@ -2,12 +2,6 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
-      "AppGates.Build.Versioning.Test.ExternalLibrary": {
-        "type": "Direct",
-        "requested": "[*-*, )",
-        "resolved": "1.1.3-g2ad21edd9c",
-        "contentHash": "NhSvEplza7QOW/sUZdzBv7bJ4UohggL5qwlzmZZPM0TPtI69wxkaFXcuvIX4cuoowgowNcGIw+xz2zFaZsWn/Q=="
-      },
       "Nerdbank.GitVersioning": {
         "type": "Direct",
         "requested": "[*, )",
@@ -29,9 +23,6 @@
         "contentHash": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A=="
       },
       "appgates.build.versioning.test.internallibrary": {
-        "type": "Project"
-      },
-      "appgates.build.versioning.testlibrary": {
         "type": "Project"
       }
     }
