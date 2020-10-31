@@ -1,13 +1,17 @@
 ﻿<Project>
   <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>$(MSBuildThisFileDirectory)\pack</PackageOutputPath>
+    <RestoreAdditionalProjectSources>$(PackageOutputPath)</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+  
+  <PropertyGroup>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <!--<RestoreProjectStyle>PackageReference</RestoreProjectStyle>-->
   </PropertyGroup>
   
   
   <PropertyGroup>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageOutputPath>$(MSBuildThisFileDirectory)\pack</PackageOutputPath>
     <!--<GitVersionBaseDirectory>$(MSBuildThisFileDirectory)</GitVersionBaseDirectory>-->
   </PropertyGroup>
   <ItemGroup>
