@@ -1,11 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Version="*" Include="..\AppGates.Build.Versioning.TestLibrary\AppGates.Build.Versioning.TestLibrary.csproj" />
+    <PackageReference Include="AppGates.Build.Versioning.Test.ExternalLibrary" Version="*-*"/>
+    <ProjectReference  Include="..\AppGates.Build.Versioning.TestLibrary\AppGates.Build.Versioning.TestLibrary.csproj" />
   </ItemGroup>
 
 </Project>
