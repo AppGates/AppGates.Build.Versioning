@@ -2,7 +2,7 @@
 
 namespace AppGates.Build.Versioning.Test.ExternalLibrary
 {
-    public class Class1ztzoioi
+    public class Class1ztzoioiwerw
     {
     }
 }
