@@ -2,7 +2,7 @@
 
 namespace AppGates.Build.Versioning.Test.ReferencingLibrary
 {
-    public class Class1123
+    public class Class1123asdad
     {
     }
 }
