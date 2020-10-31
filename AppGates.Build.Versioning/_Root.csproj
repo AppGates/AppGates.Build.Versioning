@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.Build.NoTargets/2.0.1">
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GenerateDependencyFile>False</GenerateDependencyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="version.json" />
+  </ItemGroup>
+
+  <!-- BEGIN disable default compile and copy binary behaviour -->
+  <!--<Target Name="Build" DependsOnTargets=""></Target>
+  <Target Name="CoreCompile" />
+  <PropertyGroup>
+    <SkipCopyBuildProduct>true</SkipCopyBuildProduct>
+  </PropertyGroup>-->
+  <!-- END disable default compile and copy binary behaviour -->
+</Project>
