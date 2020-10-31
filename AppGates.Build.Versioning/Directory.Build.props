@@ -2,11 +2,11 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
-    <RestoreAdditionalProjectSources>$(PackageOutputPath)</RestoreAdditionalProjectSources>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <RestoreLockedMode>false</RestoreLockedMode>
   </PropertyGroup>
   
   <PropertyGroup>
-    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <!--<RestoreProjectStyle>PackageReference</RestoreProjectStyle>-->
   </PropertyGroup>
   
