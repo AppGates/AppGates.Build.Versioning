@@ -1,4 +1,9 @@
 {
   "version": "1.1",
+  "publicReleaseRefSpec": [
+    "^refs/heads/dev$", // for testing purposes - create full release from dev
+    "^refs/heads/master$", // main releases ship from master
+    "^refs/heads/v\\d+\\.\\d+$" // servicing releases ship from vX.Y branches
+  ],
   "pathFilters": [ "." ]
 }
