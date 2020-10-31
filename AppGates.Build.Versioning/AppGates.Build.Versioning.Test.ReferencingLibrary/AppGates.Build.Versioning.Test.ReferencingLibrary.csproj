@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AppGates.Build.Versioning.TestLibrary\AppGates.Build.Versioning.TestLibrary.csproj" />
+    <PackageReference Version="*" Include="..\AppGates.Build.Versioning.TestLibrary\AppGates.Build.Versioning.TestLibrary.csproj" />
   </ItemGroup>
 
 </Project>
