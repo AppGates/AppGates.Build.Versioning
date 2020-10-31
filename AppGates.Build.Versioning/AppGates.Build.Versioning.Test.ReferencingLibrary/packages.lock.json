@@ -2,6 +2,12 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "AppGates.Build.Versioning.Test.ExternalLibrary": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.1.6",
+        "contentHash": "InmiVdrSNauu9VyxBPb8ZPicaks3U9onGHIhIwFBV6lkXNIt2VdlUSVvq3pyv2tm5WUIdwxjvawnYMrNfA5d7A=="
+      },
       "Nerdbank.GitVersioning": {
         "type": "Direct",
         "requested": "[*, )",
