@@ -1,15 +1,31 @@
 ﻿<Project>
   <PropertyGroup>
+
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
-    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+
+    <!--Opts into the usage of a lock file.-->
+    <!--<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>-->
+    <!--Enables locked mode for restore. This is useful in CI/CD scenarios where you want repeatable builds.-->
     <RestoreLockedMode>false</RestoreLockedMode>
+    
+    <!--Shall keep the floating version upgrade, but doesn't-->
+    <RestoreForceEvaluate>true</RestoreForceEvaluate>
   </PropertyGroup>
-  
-  <PropertyGroup>
-    <!--<RestoreProjectStyle>PackageReference</RestoreProjectStyle>-->
+
+  <!--hack to fix not working RestoreForceEvaluate property-->
+  <PropertyGroup Condition="'$(RestoreForceEvaluate)' == 'true'">
+    <OriginalNugetLockFilePath>$(MSBuildProjectDirectory)\packages.lock.json</OriginalNugetLockFilePath>
+    <NuGetLockFilePath>$(OriginalNugetLockFilePath).temp</NuGetLockFilePath>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
-  
+  <Target Name="CopyTempLockFile" BeforeTargets="BeforeBuild" Condition="'$(RestoreForceEvaluate)' == 'true'">
+    <Move SourceFiles="$(NuGetLockFilePath)" 
+          DestinationFiles="$(OriginalNugetLockFilePath)"
+          OverwriteReadOnlyFiles="true"/>  
+    </Target>
+    
+      
   
   <PropertyGroup>
     <!--<GitVersionBaseDirectory>$(MSBuildThisFileDirectory)</GitVersionBaseDirectory>-->
