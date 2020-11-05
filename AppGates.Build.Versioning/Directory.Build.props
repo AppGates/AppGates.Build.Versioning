@@ -21,4 +21,72 @@
     </PackageReference>
   </ItemGroup>
 
+  <PropertyGroup>
+    <IsLocalBuild>$(BuildingInsideVisualStudio.ToString().ToLower().Equals('true'))</IsLocalBuild>
+  </PropertyGroup>
+
+  <Target Name="DisablePublicReleaseOnLocalBuild" BeforeTargets="GetBuildVersion">
+    <PropertyGroup>
+      <!--<PublicRelease>false</PublicRelease>-->
+    </PropertyGroup>
+  </Target>
+  <Target Name="CreateOrGetLocalBuildId" AfterTargets="GetBuildVersion" Condition="$(IsLocalBuild)">
+    <PropertyGroup>
+      <LocalBuildId>0</LocalBuildId>
+      <LocalVersionCounterFilePath>$(BaseIntermediateOutputPath)\version_count_for_$(BuildVersion).txt</LocalVersionCounterFilePath>
+      <CommitId>$(BuildVersion.Split('-')[0].Split('.')[3])</CommitId>
+    </PropertyGroup>
+
+    <WriteLinesToFile Condition="Exists('$(LocalVersionCounterFilePath)') == false" 
+                      File="$(LocalVersionCounterFilePath)"
+                      Lines="$([MSBuild]::Multiply('$(CommitId)', '1000'))"/>
+
+    <ReadLinesFromFile
+                  File="$(LocalVersionCounterFilePath)">
+      <Output TaskParameter="Lines" PropertyName="LocalBuildId"/>
+    </ReadLinesFromFile>
+
+    <PropertyGroup>
+      <LocalBuildVersion>$(BuildVersion.Replace('.$(CommitId)','.$(LocalBuildId)'))</LocalBuildVersion>
+    </PropertyGroup>
+
+    <Message Text="Switch local build version of '$(MSBuildProjectName)' from '$(BuildVersion)' to '$(LocalBuildVersion)'"></Message>
+    <Message Text="Switch local package version of '$(MSBuildProjectName)' from '$(PackageVersion)' to '$(LocalBuildVersion)'"></Message>
+
+    <PropertyGroup>
+      <BuildVersion>$(LocalBuildVersion)</BuildVersion>
+      <PackageVersion>$(LocalBuildVersion)</PackageVersion>
+    </PropertyGroup>
+
+
+  </Target>
+  
+  <PropertyGroup>
+    <!--<GenerateNuspecDependsOn>$(GenerateNuspecDependsOn);IncrementLocalBuildIdOnPack</GenerateNuspecDependsOn>-->
+  </PropertyGroup>
+
+    <!--<Target Name="TestIssueTarget" AfterTargets="GenerateNuspec">
+      <Message Text="TestIssueTarget was executed"></Message>
+    </Target>-->
+
+  <Target Name="IncrementLocalBuildIdOnPack"
+          AfterTargets="GenerateNuspec" >
+    <PropertyGroup>
+      <VersionContent></VersionContent>
+      <VersionFilePath>$(MSBuildProjectDirectory)\version.json</VersionFilePath>
+    </PropertyGroup>
+
+   
+
+    <PropertyGroup>
+      <NextLocalBuildId>$([MSBuild]::Add('$(LocalBuildId)', '1'))</NextLocalBuildId>
+    </PropertyGroup>
+
+        <Message Text="PackageOutputAbsolutePath: $(PackageOutputAbsolutePath)$(PackageId).$(PackageVersion)"></Message>
+<Message Text="Increment local build id of '$(MSBuildProjectName)' to '$(NextLocalBuildId)'"></Message>
+
+    <WriteLinesToFile File="$(LocalVersionCounterFilePath)"
+                      Lines="$(NextLocalBuildId)" Overwrite="true" WriteOnlyWhenDifferent="true"/>
+
+  </Target>
 </Project>
