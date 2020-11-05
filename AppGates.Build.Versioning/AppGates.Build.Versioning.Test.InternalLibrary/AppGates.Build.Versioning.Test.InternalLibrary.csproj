@@ -4,5 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj" />
+  </ItemGroup>
+
  
 </Project>

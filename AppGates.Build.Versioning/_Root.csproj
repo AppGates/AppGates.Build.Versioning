@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Directory.Build.targets" />
     <None Include="version.json" />
   </ItemGroup>
 

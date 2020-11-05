@@ -2,7 +2,6 @@
 
 namespace AppGates.Build.Versioning.TestLibrary
 {
-    public class Class13123dfg
-    {
+    class Testsd123{
     }
 }
