@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Directory.Build.targets" />
+    <None Include="PackDependencies.targets" />
+    <None Include="Directory.Build_broken.targets" />
+    <None Include="HandleVersionForLocalBuild_broken.targets" />
+    <None Include="HandleVersionForLocalBuild.targets" />
+    <None Include="WorkaroundForRevaluate.targets" />
     <None Include="version.json" />
   </ItemGroup>
 

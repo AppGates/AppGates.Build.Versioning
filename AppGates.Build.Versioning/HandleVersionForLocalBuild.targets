@@ -1,0 +1,84 @@
+﻿<Project>
+  <Target Name="IncrementLocalBuildId2"
+          Condition="$(GeneratePackageOnBuild)"
+          BeforeTargets="_IntermediatePack;BeforeBuild" DependsOnTargets="GetLocalBuildId">
+    <PropertyGroup>
+      <VersionIsDirty>$([System.IO.File]::Exists('$(VersionDirtyFileFullPath)'))</VersionIsDirty>
+    </PropertyGroup>
+    <CallTarget  Condition="$(VersionIsDirty)" Targets ="DoIncrementLocalBuildId"/>
+  </Target>
+
+  <Target Name="CreateOrGetLocalBuildId"  
+          Condition="$(GeneratePackageOnBuild)"
+          AfterTargets="GetBuildVersion"
+          DependsOnTargets="GetLocalBuildId">
+    <PropertyGroup>
+      <CommitId>$(BuildVersion.Split('-')[0].Split('.')[3])</CommitId>
+    </PropertyGroup>
+    
+    <Message Text="CommitId: $(CommitId)"/>
+
+    <PropertyGroup>
+      <LocalBuildVersion>$(BuildVersion.Replace('.$(CommitId)','.$(LocalBuildId)'))</LocalBuildVersion>
+      <BuildVersion>$(LocalBuildVersion)</BuildVersion>
+      <PackageVersion>$(LocalBuildVersion)</PackageVersion>
+    </PropertyGroup>
+  </Target>
+  <Target Name="IncrementLocalBuildIdAfterSuccessfulPack"
+          AfterTargets="GenerateNuspec"
+          DependsOnTargets="GetLocalBuildId">
+
+    <!--<CallTarget Targets="IncrementLocalBuildId"/>-->
+    <PropertyGroup>
+      <PackageFilePath>$(PackageOutputAbsolutePath)$(PackageId).$(PackageVersion).nupkg</PackageFilePath>
+    </PropertyGroup>
+    <WriteLinesToFile File="$(VersionDirtyFileFullPath)" Lines="" ></WriteLinesToFile>
+    <Message Importance="high"  Text="PackagePath: file://$(PackageFilePath)"></Message>
+  </Target>
+
+  <Target Name="DoIncrementLocalBuildId">
+    <PropertyGroup>
+      <LocalBuildId>$([MSBuild]::Add('$(LocalBuildId)', '1'))</LocalBuildId>
+    </PropertyGroup>
+    <Delete Files="$(VersionDirtyFileFullPath)"></Delete>
+
+    <Message Importance="high"  Text="Increment local build id of '$(MSBuildProjectName)' to '$(LocalBuildId)'"></Message>
+
+    <WriteLinesToFile File="$(VersionFileFullPath)"
+                      Lines="$(LocalBuildId)" Overwrite="true" WriteOnlyWhenDifferent="true"/>
+
+  </Target>
+  
+
+  <!--<Target Name="IncrementLocalBuildId">
+    <PropertyGroup>
+      <LocalBuildId>$([MSBuild]::Add('$(LocalBuildId)', '1'))</LocalBuildId>
+    </PropertyGroup>
+
+    <Message Importance="high"  Text="Increment local build id of '$(MSBuildProjectName)' to '$(NextLocalBuildId)'"></Message>
+
+    <WriteLinesToFile File="$(VersionFileFullPath)"
+                      Lines="$(LocalBuildId)" Overwrite="true" WriteOnlyWhenDifferent="true"/>
+
+  </Target>-->
+  
+  <Target Name="GetNextLocalBuildId" DependsOnTargets="GetLocalBuildId">
+    <ReadLinesFromFile Condition="Exists('$(VersionDirtyFileFullPath)')" File="$(VersionFileFullPath)">
+      <Output TaskParameter="Lines" PropertyName="LocalBuildId"/>
+    </ReadLinesFromFile>
+    
+  </Target>
+  <Target Name="GetLocalBuildId">
+    <PropertyGroup>
+      <LocalBuildId>100000</LocalBuildId>
+      <VersionFilePath>$(BaseIntermediateOutputPath)\local_build.version</VersionFilePath>
+      <VersionFileFullPath>$([System.IO.Path]::GetFullPath('$(VersionFilePath)'))</VersionFileFullPath>
+      <VersionDirtyFileFullPath>$(VersionFileFullPath).dirty</VersionDirtyFileFullPath>
+    </PropertyGroup>
+    <ReadLinesFromFile Condition="Exists('$(VersionFileFullPath)')" File="$(VersionFileFullPath)">
+      <Output TaskParameter="Lines" PropertyName="LocalBuildId"/>
+    </ReadLinesFromFile>
+    <Message Text="Read Local Build Id '$(LocalBuildId)' from 'file://$(VersionFileFullPath)'"/>
+  </Target>
+  
+</Project>

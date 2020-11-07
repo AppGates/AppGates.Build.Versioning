@@ -1,0 +1,25 @@
+﻿<Project>
+
+ 
+  <!--hack to fix not working RestoreForceEvaluate property-->
+  <PropertyGroup Condition="'$(RestoreForceEvaluate)' == 'true'">
+    <OriginalNugetLockFilePath>$(MSBuildProjectDirectory)\packages.lock.json</OriginalNugetLockFilePath>
+    <NuGetLockFilePath>$(OriginalNugetLockFilePath).temp</NuGetLockFilePath>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <Target Name="CopyTempLockFile" BeforeTargets="BeforeBuild" Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))">
+    <Move SourceFiles="$(NuGetLockFilePath)"
+          DestinationFiles="$(OriginalNugetLockFilePath)"
+          OverwriteReadOnlyFiles="true"/>
+  </Target>
+
+  <Target Name="CopyTempLockFile" AfterTargets="ResolvePackageDependenciesDesignTime" Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))">
+    <Move SourceFiles="$(NuGetLockFilePath)"
+          DestinationFiles="$(OriginalNugetLockFilePath)"
+          OverwriteReadOnlyFiles="true"/>
+  </Target>
+  <!--end hack to fix not working RestoreForceEvaluate property-->
+
+  
+</Project>

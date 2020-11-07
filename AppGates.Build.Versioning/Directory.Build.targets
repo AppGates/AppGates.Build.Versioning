@@ -1,46 +1,35 @@
 ﻿<Project>
-  <!--hack for ensuring that dependend projects are packed on build too-->
+  <PropertyGroup>
 
-  <!--<Target Name="EnsureBuiltBeforePack" BeforeTargets="Pack">
-        <Message Importance="high" Text="Ensure tree is built before pack of '$(MSBuildProjectName)'"/>
- <PropertyGroup>
-    <CoreCompileDependsOn>Build;$(CoreCompileDependsOn)</CoreCompileDependsOn>
- </PropertyGroup>
- 
-  </Target>-->
-  <Target Name="DeterminePack" BeforeTargets="_IntermediatePack">
-    <PropertyGroup>
-      <IsPackTarget>true</IsPackTarget>
-    </PropertyGroup>
+    <!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
+    <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
 
-  </Target>
+    <!--Opts into the usage of a lock file.-->
+    <!--<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>-->
+    <!--Enables locked mode for restore. This is useful in CI/CD scenarios where you want repeatable builds.-->
+    <RestoreLockedMode>false</RestoreLockedMode>
 
-  <!--<Target Name="PackDependencies" BeforeTargets="CoreCompile"
-          Condition="'$(IsPackTarget)' == 'true' AND '$(GeneratePackageOnBuild)' != 'true' AND '$(TargetFramework)' != '' AND '$(BuildingInsideVisualStudio)' == 'true' "
-  >
-  
-    <Message Importance="high" Text="Pack dependencies of '$(MSBuildProjectName)'"/>
-    <MSBuild Projects="@(ProjectReference)" Targets="Build" Properties="NoBuild=true;GeneratePackageOnBuild=true;BuildTransitiveProjects=true"  />
+    <!--Shall keep the floating version upgrade, but doesn't-->
+    <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals(false))</RestoreForceEvaluate>
 
-  </Target>
+    <IsLocalBuild Condition="'$(IsLocalBuild)' == ''">$(CI.Equals('true').Equals(false))</IsLocalBuild>
 
-  <Target Name="PackTransitiveDependencies" BeforeTargets="CoreCompile"
-          Condition="'$(BuildTransitiveProjects)' == 'true' AND '$(TargetFramework)' != '' AND '$(BuildingInsideVisualStudio)' == 'true' "
-  >
+    <PackDependencies>true</PackDependencies>
+  </PropertyGroup>
 
-    <Message Importance="high" Text="Pack transitive dependencies of '$(MSBuildProjectName)'"/>
-    <MSBuild Projects="@(ProjectReference)" Targets="Build" Properties="GeneratePackageOnBuild=true"  />
-
-  </Target>-->
+  <Import Project="WorkaroundForRevaluate.targets" Condition="$(RestoreForceEvaluate)"/>
+  <Import Project="HandleVersionForLocalBuild.targets" Condition="$(IsLocalBuild)"/>
+  <Import Project="PackDependencies.targets" Condition="$(PackDependencies)"/>
 
 
-  <!--<Target Name="PackTransitiveDependencies" AfterTargets="GenerateNuspec" Condition="'$(NoBuild)' == 'true'">
-            <Message Importance="high" Text="Pack transitive dependencies of '$(MSBuildProjectName)'"/>
-<MSBuild Projects="@(ProjectReference)" Targets="Pack" Properties="NoBuild=false" />
-  </Target>-->
-
-  <!--end hack for ensuring that dependend projects are packed on build too-->
-
-
+  <PropertyGroup>
+    <!--<GitVersionBaseDirectory>$(MSBuildThisFileDirectory)</GitVersionBaseDirectory>-->
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
