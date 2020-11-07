@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <!--Avoid the weird half dependency build of Visual Studio during pack-->
-  <PropertyGroup Condition="'$(BuildingProject)' == 'false'">
+  <PropertyGroup >
+        <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <!--<PropertyGroup Condition="'$(BuildingProject)' == 'false' AND '$(GeneratePackageOnBuild)' == 'true'">
     <NoBuild>true</NoBuild>
     <BuildDependsOn_Copy>$(BuildDependsOn)</BuildDependsOn_Copy>
     <BuildDependsOn></BuildDependsOn>
@@ -14,7 +17,7 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <Target Name="_CheckForBuildWithNoBuild">
-  </Target>
+  </Target>-->
 
   <Target Name="CustomPack" AfterTargets="Pack" >
     <PropertyGroup>

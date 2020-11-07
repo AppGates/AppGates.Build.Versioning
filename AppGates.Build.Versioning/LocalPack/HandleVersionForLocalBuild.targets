@@ -22,9 +22,11 @@
       <LocalBuildVersion>$(BuildVersion.Replace('.$(CommitId)','.$(LocalBuildId)'))</LocalBuildVersion>
       <BuildVersion>$(LocalBuildVersion)</BuildVersion>
       <PackageVersion>$(LocalBuildVersion)</PackageVersion>
+      <FileVersion>$(LocalBuildVersion)</FileVersion>
     </PropertyGroup>
   </Target>
   <Target Name="IncrementLocalBuildIdAfterSuccessfulPack"
+          Condition="$(IsPackable)"
           AfterTargets="GenerateNuspec"
           DependsOnTargets="GetLocalBuildId">
 

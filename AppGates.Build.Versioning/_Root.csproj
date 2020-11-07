@@ -7,14 +7,7 @@
     <GenerateDependencyFile>False</GenerateDependencyFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="PackDependencies.targets" />
-    <None Include="Directory.Build_broken.targets" />
-    <None Include="HandleVersionForLocalBuild_broken.targets" />
-    <None Include="HandleVersionForLocalBuild.targets" />
-    <None Include="WorkaroundForRevaluate.targets" />
-    <None Include="version.json" />
-  </ItemGroup>
+
 
   <!-- BEGIN disable default compile and copy binary behaviour -->
   <!--<Target Name="Build" DependsOnTargets=""></Target>
