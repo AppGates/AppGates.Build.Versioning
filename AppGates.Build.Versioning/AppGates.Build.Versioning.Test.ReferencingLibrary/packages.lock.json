@@ -5,8 +5,8 @@
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
         "requested": "[*-*, )",
-        "resolved": "1.1.3-g2ad21edd9c",
-        "contentHash": "NhSvEplza7QOW/sUZdzBv7bJ4UohggL5qwlzmZZPM0TPtI69wxkaFXcuvIX4cuoowgowNcGIw+xz2zFaZsWn/Q=="
+        "resolved": "1.2.0-gaf27f4ef93",
+        "contentHash": "RljBQyPC6UASbhZTgwBNKLSIXhO3RkRO02sRlXL0J9BYSKEKfGZKIYrRXzgFvKj+dbFNCnIMztb2THPT6r3Ksw=="
       },
       "Nerdbank.GitVersioning": {
         "type": "Direct",
@@ -29,9 +29,12 @@
         "contentHash": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A=="
       },
       "appgates.build.versioning.test.internallibrary": {
-        "type": "Project"
+        "type": "Project",
+        "dependencies": {
+          "AppGates.Build.Versioning.Test.TransitiveLibrary": "1.0.0"
+        }
       },
-      "appgates.build.versioning.testlibrary": {
+      "appgates.build.versioning.test.transitivelibrary": {
         "type": "Project"
       }
     }
