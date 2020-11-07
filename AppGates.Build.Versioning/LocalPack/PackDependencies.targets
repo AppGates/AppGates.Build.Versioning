@@ -34,7 +34,7 @@
     <Message Text="IsPackableCopy: $(IsPackableCopy)"/>
     <Message Text="IsPackableCopy: $(IsPackableCopy)"/>
     <MSBuild
-       Targets="Build"
+       Targets="Restore;Build"
       Condition="$(IsPackableCopy)"
              Projects="$(MSBuildProjectFullPath)"
              Properties="$(CustomPackBuildProperties)"/>

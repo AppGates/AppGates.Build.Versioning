@@ -1,7 +1,9 @@
 ﻿<Project>
+  <!--BeforeTargets="_IntermediatePack;BeforeBuild;ResolveFrameworkReferencesDesignTime"-->
   <Target Name="IncrementLocalBuildId2"
           Condition="$(GeneratePackageOnBuild)"
-          BeforeTargets="_IntermediatePack;BeforeBuild" DependsOnTargets="GetLocalBuildId">
+          BeforeTargets="_IntermediatePack;BeforeBuild" 
+          DependsOnTargets="GetLocalBuildId">
     <PropertyGroup>
       <VersionIsDirty>$([System.IO.File]::Exists('$(VersionDirtyFileFullPath)'))</VersionIsDirty>
     </PropertyGroup>

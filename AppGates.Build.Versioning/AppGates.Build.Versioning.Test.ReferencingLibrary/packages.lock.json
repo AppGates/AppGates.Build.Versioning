@@ -5,8 +5,8 @@
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.10.55871003",
-        "contentHash": "FHyrZ+l0mDrHZaShXGYrEYJX7e7oWRCstt+OUji7NhitmFqIEGyyFDNn+4fB9JKdkybPLXbNI/8tb95IL5VSbw=="
+        "resolved": "1.1.14.100039",
+        "contentHash": "AqXuG/B0qEOxMQTkC028pJ8IFFWeaTvOUcAiD10R+8fxVPnWP3ug5vOSFtSDPDIftd+TeEaEuj0FyIwXvXjmlg=="
       },
       "Nerdbank.GitVersioning": {
         "type": "Direct",

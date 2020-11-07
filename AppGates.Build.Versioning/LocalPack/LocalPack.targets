@@ -1,21 +1,8 @@
 ﻿<Project>
-  <PropertyGroup>
 
+  <Import Project="WorkaroundForRevaluate.targets" Condition="'$(RestoreForceEvaluate)' != 'false'"/>
 
-    <!--Opts into the usage of a lock file.-->
-    <!--<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>-->
-    <!--Enables locked mode for restore. This is useful in CI/CD scenarios where you want repeatable builds.-->
-    <RestoreLockedMode>false</RestoreLockedMode>
-
-    <!--Shall keep the floating version upgrade, but doesn't-->
-    <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals(false))</RestoreForceEvaluate>
-
-    <IsLocalBuild Condition="'$(IsLocalBuild)' == ''">$(CI.Equals('true').Equals(false))</IsLocalBuild>
-
-    <!--<PackDependencies>true</PackDependencies>-->
-  </PropertyGroup>
-
-  <Import Project="WorkaroundForRevaluate.targets" Condition="$(RestoreForceEvaluate)"/>
+  <!--<Import Project="WorkaroundForRevaluate.targets" Condition="$(RestoreForceEvaluate)"/>-->
   <Import Project="HandleVersionForLocalBuild.targets" Condition="$(IsLocalBuild)"/>
   <Import Project="PackDependencies.targets" Condition="'$(BuildingInsideVisualStudio)' == 'true'"/>
 

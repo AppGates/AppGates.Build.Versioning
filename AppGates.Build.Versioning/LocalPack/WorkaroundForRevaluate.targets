@@ -2,24 +2,31 @@
 
  
   <!--hack to fix not working RestoreForceEvaluate property-->
-  <PropertyGroup Condition="'$(RestoreForceEvaluate)' == 'true'">
+  <PropertyGroup >
     <OriginalNugetLockFilePath>$(MSBuildProjectDirectory)\packages.lock.json</OriginalNugetLockFilePath>
-    <NuGetLockFilePath>$(OriginalNugetLockFilePath).temp</NuGetLockFilePath>
-    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <NuGetLockFilePath>$(BaseIntermediateOutputPath)\packages.lock.temp</NuGetLockFilePath>
+    <RestorePackagesWithLockFile>$(RestoreForceEvaluate.Equals('false').Equals(false))</RestorePackagesWithLockFile>
   </PropertyGroup>
 
-  <Target Name="CopyTempLockFile" BeforeTargets="BeforeBuild" Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))">
-    <Move SourceFiles="$(NuGetLockFilePath)"
+  <Target Name="CopyTempLockFile" BeforeTargets="BeforeBuild" >
+    <Move
+      Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))"
+      SourceFiles="$(NuGetLockFilePath)"
           DestinationFiles="$(OriginalNugetLockFilePath)"
           OverwriteReadOnlyFiles="true"/>
   </Target>
 
-  <Target Name="CopyTempLockFile" AfterTargets="ResolvePackageDependenciesDesignTime" Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))">
-    <Move SourceFiles="$(NuGetLockFilePath)"
+  <!--<Target Name="CopyTempLockFile2" AfterTargets="ResolvePackageDependenciesDesignTime" >
+    <Move
+      Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))"
+      SourceFiles="$(NuGetLockFilePath)"
           DestinationFiles="$(OriginalNugetLockFilePath)"
           OverwriteReadOnlyFiles="true"/>
-  </Target>
+  </Target>-->
   <!--end hack to fix not working RestoreForceEvaluate property-->
 
+  <Target Name="RestoreBeforeClean" BeforeTargets="Clean">
+    <CallTarget Targets="Restore"/>
+  </Target>
   
 </Project>
