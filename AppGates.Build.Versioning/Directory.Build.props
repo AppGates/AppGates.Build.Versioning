@@ -4,6 +4,7 @@
     <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <RestoreLockedMode>false</RestoreLockedMode>
+    <RestoreForceEvaluate>true</RestoreForceEvaluate>
   </PropertyGroup>
   
   <PropertyGroup>
