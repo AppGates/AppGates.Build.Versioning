@@ -3,7 +3,7 @@ using AppGates.Build.Versioning.Test.TransitiveProjectLibrary;
 
 namespace AppGates.Build.Versioning.Test.ReferencingLibrary
 {
-    public class Class1123asdad
+    public class Class123
     {
         public void Dummy()
         {

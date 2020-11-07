@@ -5,8 +5,14 @@
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.14.100039",
-        "contentHash": "AqXuG/B0qEOxMQTkC028pJ8IFFWeaTvOUcAiD10R+8fxVPnWP3ug5vOSFtSDPDIftd+TeEaEuj0FyIwXvXjmlg=="
+        "resolved": "1.1.15.100041",
+        "contentHash": "zMdoGOVdNr6PWqHM0s5Lmn0QTnx7XllIohs9/8wWuwlG3qUbfNjy/k3QxdvZLDDSFtveTjZquPHdezw6TH9knA=="
+      },
+      "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+        "type": "Direct",
+        "requested": "[3.3.1, )",
+        "resolved": "3.3.1",
+        "contentHash": "5r+/eDxFR7nNuogjHy44ECZgulx9aWxzObPDESeNLdr3pzXpWuhEfI98MfggcvInf3hBGQDXCQfxbKjmu75cJA=="
       },
       "Nerdbank.GitVersioning": {
         "type": "Direct",

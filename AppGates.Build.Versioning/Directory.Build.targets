@@ -5,4 +5,6 @@
 
   </PropertyGroup>
   <Import Project="LocalPack\LocalPack.targets"/>
+  <Import Project="ApiManagement\ApiManagement.targets"/>
+
 </Project>

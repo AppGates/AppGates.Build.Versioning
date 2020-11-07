@@ -2,6 +2,12 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+        "type": "Direct",
+        "requested": "[3.3.1, )",
+        "resolved": "3.3.1",
+        "contentHash": "5r+/eDxFR7nNuogjHy44ECZgulx9aWxzObPDESeNLdr3pzXpWuhEfI98MfggcvInf3hBGQDXCQfxbKjmu75cJA=="
+      },
       "Nerdbank.GitVersioning": {
         "type": "Direct",
         "requested": "[*, )",
