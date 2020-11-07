@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Build.Versioning.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Build.Versioning.Test.TransitiveProjectLibrary", "AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj", "{12FAC97A-3DD0-41FE-A363-CDDC40EBCBFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Build.ApiManagement.Tasks", "..\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj", "{A2F47E72-2E34-4DCA-BDE6-BB3041D9C338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{12FAC97A-3DD0-41FE-A363-CDDC40EBCBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12FAC97A-3DD0-41FE-A363-CDDC40EBCBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12FAC97A-3DD0-41FE-A363-CDDC40EBCBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F47E72-2E34-4DCA-BDE6-BB3041D9C338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F47E72-2E34-4DCA-BDE6-BB3041D9C338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F47E72-2E34-4DCA-BDE6-BB3041D9C338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F47E72-2E34-4DCA-BDE6-BB3041D9C338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
