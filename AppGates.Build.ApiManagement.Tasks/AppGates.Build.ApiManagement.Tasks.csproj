@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Siemens.Collaboration.Net.Build.Package" Version="*"/>
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="16.7.0" />
     <PackageReference Include="NerdBank.GitVersioning" ExcludeAssets="all" GeneratePathProperty="true" Version="*" />
     <Reference  Include="$(PkgNerdBank_GitVersioning)\build\MSBuildCore\*.dll"/>
