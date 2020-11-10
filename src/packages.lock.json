@@ -2,9 +2,15 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "AppGates.Build.ApiManagement.Targets": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.0.0",
+        "contentHash": "KuseQydQsczwYj2gBNhCa+IT8LNUnOCJVlMgRCyvp3u4Kv8l3+y3MQTB5aOAsO6BhiW1DbDVVd9TgR27h/JdjQ=="
+      },
       "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
         "type": "Direct",
-        "requested": "[3.3.1, )",
+        "requested": "[*, )",
         "resolved": "3.3.1",
         "contentHash": "5r+/eDxFR7nNuogjHy44ECZgulx9aWxzObPDESeNLdr3pzXpWuhEfI98MfggcvInf3hBGQDXCQfxbKjmu75cJA=="
       },

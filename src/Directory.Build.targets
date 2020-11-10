@@ -1,0 +1,5 @@
+﻿<Project>
+  
+  <Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.targets"/>
+
+</Project>

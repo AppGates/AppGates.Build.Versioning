@@ -7,10 +7,6 @@
     <GenerateDependencyFile>False</GenerateDependencyFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="ApiManagement\" />
-  </ItemGroup>
-
 
 
   <!-- BEGIN disable default compile and copy binary behaviour -->

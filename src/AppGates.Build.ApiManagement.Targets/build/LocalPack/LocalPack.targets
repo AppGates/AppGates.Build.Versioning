@@ -1,6 +1,5 @@
 ﻿<Project>
 
-  <Import Project="WorkaroundForRevaluate.targets" Condition="'$(RestoreForceEvaluate)' != 'false'"/>
 
   <!--<Import Project="WorkaroundForRevaluate.targets" Condition="$(RestoreForceEvaluate)"/>-->
   <Import Project="HandleVersionForLocalBuild.targets" Condition="$(IsLocalBuild)"/>
@@ -11,10 +10,10 @@
     <!--<GitVersionBaseDirectory>$(MSBuildThisFileDirectory)</GitVersionBaseDirectory>-->
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Nerdbank.GitVersioning" Version="*">
+    <!--<PackageReference Include="Nerdbank.GitVersioning" Version="*">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    </PackageReference>-->
   </ItemGroup>
 
 </Project>

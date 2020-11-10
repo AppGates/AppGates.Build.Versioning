@@ -31,16 +31,23 @@ namespace AppGates.Build.ApiManagement.Tasks
 
         public override bool Execute()
         {
-            var updater = new UpdateVersionOnApiChange(this.ProjectDirectory, this.GitVersionFile, this.PublicApiShippedFile,
+
+        
+            return true;
+        }
+
+        private void DoExecute()
+        {
+            var updater = new UpdateVersionOnApiChange(this.ProjectDirectoryPath.ToDirectoryInfo(), 
+                this.GitVersionFile, this.PublicApiShippedFile,
                 this.PublicApiUnshippedFile, this.PackageLockFile);
-            
-            
+
+
             var newVersion = updater.UpdateVersion(
                 x => GitExtensions.OpenGitRepo(x.RepositoryDirectory.FullName).RetrieveStatus(x.Options));
 
             VersionFile.SetVersion(this.ProjectDirectory.FullName, newVersion);
-            
-            return true;
+
         }
 
     }

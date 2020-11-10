@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <!--<UseApiManagement>$(MSBuildProjectName.Equals('AppGates.Build.ApiManagement.Tasks').Equals(false))</UseApiManagement>-->
+    <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
+
+    <UseVersioningSdk>true</UseVersioningSdk>
+    <UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Targets' OR '$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>
+  </PropertyGroup>
+
+
+  <Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.props"/>
+
+  <!--<ItemGroup>
+    <PackageReference 
+      Condition="'$(MSBuildProjectName)' != 'AppGates.Build.ApiManagement.Targets' AND '$(MSBuildProjectName)' != 'AppGates.Build.ApiManagement.Sdk'" 
+      Include="AppGates.Build.ApiManagement.Targets" Version="*"/>
+  </ItemGroup>-->
+
+
+</Project>

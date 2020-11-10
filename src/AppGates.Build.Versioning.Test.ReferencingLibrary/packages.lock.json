@@ -2,15 +2,21 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "AppGates.Build.ApiManagement.Targets": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.0.1",
+        "contentHash": "BFuz4A9gtj8u3P9fNb8rI4t11ZZj3ieWx5qQA62NI7wFc9XJPlOXj0TIXXeOrgPdiYwcfp4YNDqDZ1GMFD/uZA=="
+      },
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.15.100041",
-        "contentHash": "zMdoGOVdNr6PWqHM0s5Lmn0QTnx7XllIohs9/8wWuwlG3qUbfNjy/k3QxdvZLDDSFtveTjZquPHdezw6TH9knA=="
+        "resolved": "1.1.11.7254009",
+        "contentHash": "DeSnD4mdhBRayOXgnji/nqlhw/J3qgPyegu1tKK1RxNPDv/vR+QIp8D6c0VZWdYPuWm5yyAPklemY3YtTfpm7w=="
       },
       "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
         "type": "Direct",
-        "requested": "[3.3.1, )",
+        "requested": "[*, )",
         "resolved": "3.3.1",
         "contentHash": "5r+/eDxFR7nNuogjHy44ECZgulx9aWxzObPDESeNLdr3pzXpWuhEfI98MfggcvInf3hBGQDXCQfxbKjmu75cJA=="
       },

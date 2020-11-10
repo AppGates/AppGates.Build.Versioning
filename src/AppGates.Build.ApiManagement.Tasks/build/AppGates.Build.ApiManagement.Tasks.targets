@@ -1,0 +1,16 @@
+﻿<Project>
+
+  <Import Project="targets\ApiManagementToVersioning\ApiManagementToVersioning.targets"/>
+  <ItemGroup>
+    <PackageReference Include="NerdBank.GitVersioning" ExcludeAssets="all" GeneratePathProperty="true" Version="*" />
+
+  </ItemGroup>
+
+
+  <Target Name="Loglog" BeforeTargets="BeforeBuild">
+    <Message  Importance="high" Text="PkgNerdBank_GitVersioning: $(PkgNerdBank_GitVersioning)"/>
+  </Target>
+
+
+
+</Project>
