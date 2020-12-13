@@ -16,15 +16,6 @@
           OverwriteReadOnlyFiles="true"/>
   </Target>
 
-  <!--<Target Name="CopyTempLockFile2" AfterTargets="ResolvePackageDependenciesDesignTime" >
-    <Move
-      Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))"
-      SourceFiles="$(NuGetLockFilePath)"
-          DestinationFiles="$(OriginalNugetLockFilePath)"
-          OverwriteReadOnlyFiles="true"/>
-  </Target>-->
-  <!--end hack to fix not working RestoreForceEvaluate property-->
-
   <Target Name="RestoreBeforeClean" BeforeTargets="Clean">
     <CallTarget Targets="Restore"/>
   </Target>

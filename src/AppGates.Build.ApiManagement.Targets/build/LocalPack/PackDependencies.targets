@@ -8,16 +8,6 @@
   <PropertyGroup >
         <IsPackable>false</IsPackable>
   </PropertyGroup>
-  <!--<PropertyGroup Condition="'$(BuildingProject)' == 'false' AND '$(GeneratePackageOnBuild)' == 'true'">
-    <NoBuild>true</NoBuild>
-    <BuildDependsOn_Copy>$(BuildDependsOn)</BuildDependsOn_Copy>
-    <BuildDependsOn></BuildDependsOn>
-    <GenerateNuspecDependsOn_Copy>$(GenerateNuspecDependsOn)</GenerateNuspecDependsOn_Copy>
-    <GenerateNuspecDependsOn></GenerateNuspecDependsOn>
-    <IsPackable>false</IsPackable>
-  </PropertyGroup>
-  <Target Name="_CheckForBuildWithNoBuild">
-  </Target>-->
 
   <Target Name="CustomPack" AfterTargets="Pack" >
     <PropertyGroup>
@@ -32,7 +22,6 @@
       </CustomPackBuildProperties>
     </PropertyGroup>
     <Message Text="IsPackableCopy: $(IsPackableCopy)"/>
-    <Message Text="IsPackableCopy: $(IsPackableCopy)"/>
     <MSBuild
        Targets="Restore;Build"
       Condition="$(IsPackableCopy)"
@@ -41,23 +30,6 @@
     
   </Target>
 
-  <!--<Target Name="DeterminePack" BeforeTargets="_IntermediatePack">
-    <PropertyGroup  Condition="'$(BuildingProject)' == 'false'">
-      <BuildingProject>true</BuildingProject>
-      <NoBuild>false</NoBuild>
-      <BuildDependsOn>$(BuildDependsOn_Copy)</BuildDependsOn>
-      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-      <PackDependsOn>Build;$(PackDependsOn)</PackDependsOn>
-      <IsPackTarget>true</IsPackTarget>
-    </PropertyGroup>
-    <CallTarget Targets="$(BuildDependsOn_Copy)"></CallTarget>
-  </Target>-->
-  <!--<Target Name="BuildProjectDependencies" Condition="'$(IsPackTarget)' == 'true'" BeforeTargets="CoreCompile">
-    <MSBuild Projects="@(ProjectReference)"  Targets="Build" Properties="BuildingProject=true"></MSBuild>
-  </Target>
 
-  <Target Name="PackProjectDependencies" Condition="'$(IsPackTarget)' == 'true'" AfterTargets="_GetProjectReferenceVersions">
-    <MSBuild Projects="@(ProjectReference)"  Targets="Build" Properties="GeneratePackageOnBuild=true"></MSBuild>
-  </Target>-->
  
 </Project>

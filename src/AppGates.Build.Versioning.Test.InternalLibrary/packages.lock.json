@@ -2,38 +2,6 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
-      "AppGates.Build.ApiManagement.Targets": {
-        "type": "Direct",
-        "requested": "[*, )",
-        "resolved": "1.0.1",
-        "contentHash": "BFuz4A9gtj8u3P9fNb8rI4t11ZZj3ieWx5qQA62NI7wFc9XJPlOXj0TIXXeOrgPdiYwcfp4YNDqDZ1GMFD/uZA=="
-      },
-      "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
-        "type": "Direct",
-        "requested": "[*, )",
-        "resolved": "3.3.1",
-        "contentHash": "5r+/eDxFR7nNuogjHy44ECZgulx9aWxzObPDESeNLdr3pzXpWuhEfI98MfggcvInf3hBGQDXCQfxbKjmu75cJA=="
-      },
-      "Nerdbank.GitVersioning": {
-        "type": "Direct",
-        "requested": "[*, )",
-        "resolved": "3.3.37",
-        "contentHash": "YlDKV/gSHQGDThWSGqVyPfKeNP/kx1fj/NPFFgGc/cxzgIbXv4jtYOcbFOz3ZIeAKtpCcSAmVNDOikBs3OxI/A=="
-      },
-      "NETStandard.Library": {
-        "type": "Direct",
-        "requested": "[2.0.3, )",
-        "resolved": "2.0.3",
-        "contentHash": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0"
-        }
-      },
-      "Microsoft.NETCore.Platforms": {
-        "type": "Transitive",
-        "resolved": "1.1.0",
-        "contentHash": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A=="
-      },
       "appgates.build.versioning.test.transitiveprojectlibrary": {
         "type": "Project"
       }
