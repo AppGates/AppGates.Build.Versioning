@@ -7,6 +7,7 @@ using System.Linq;
 
 namespace AppGates.Build.ApiManagement.Tasks
 {
+
     public class UpdateVersionOnApiChange
     {
         private DirectoryInfo ProjectDirectory  { get;  }

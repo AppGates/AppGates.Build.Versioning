@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AvoidCycleErrorOnSelfReference>true</AvoidCycleErrorOnSelfReference>
     <TargetFramework>netstandard2.0</TargetFramework>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <IsDevelopmentDependency>true</IsDevelopmentDependency>
-    <Version>1.0.1</Version>
+    <!--<Version>1.0.3</Version>-->
   </PropertyGroup>
 
   <ItemGroup>

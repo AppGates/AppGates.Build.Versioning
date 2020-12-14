@@ -2,6 +2,24 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "AppGates.Build.ApiManagement.Targets": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.0.1",
+        "contentHash": "x/pQ0wJcfRnmfUQWKRdhGEy6En0WSclc0J1SOnam7azVCP/YCEB/LSPJBWrK+ofoODEiuNg6Pmw2qkEKlNkR3g=="
+      },
+      "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "3.3.2",
+        "contentHash": "jlQnHJZX+Y3WygwqKNRTp/BtnSb/o+a2FFn/Ot7jeSCC5ZtrHtOi04gw5o3WSEU3OpVzrKjZVQRUwKFJncxKyA=="
+      },
+      "Nerdbank.GitVersioning": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "3.3.37",
+        "contentHash": "YlDKV/gSHQGDThWSGqVyPfKeNP/kx1fj/NPFFgGc/cxzgIbXv4jtYOcbFOz3ZIeAKtpCcSAmVNDOikBs3OxI/A=="
+      },
       "NETStandard.Library": {
         "type": "Direct",
         "requested": "[2.0.3, )",

@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj" />
+    <ProjectReference Include="..\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj" />
   </ItemGroup>
 
  

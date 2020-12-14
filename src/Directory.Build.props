@@ -3,9 +3,10 @@
   <PropertyGroup>
     <!--<UseApiManagement>$(MSBuildProjectName.Equals('AppGates.Build.ApiManagement.Tasks').Equals(false))</UseApiManagement>-->
     <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
+    <RebuildOnVisualStudioPack>false</RebuildOnVisualStudioPack>
 
     <UseVersioningSdk>true</UseVersioningSdk>
-    <UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Targets' OR '$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>
+    <UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>
   </PropertyGroup>
 
 

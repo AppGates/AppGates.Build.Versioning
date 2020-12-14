@@ -6,11 +6,15 @@
 
   <!--Avoid the weird half dependency build of Visual Studio during pack-->
   <PropertyGroup >
-        <IsPackable>false</IsPackable>
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <Target Name="CustomPack" AfterTargets="Pack" >
     <PropertyGroup>
+      <RebuildOnVisualStudioPack Condition="'$(RebuildOnVisualStudioPack)' == ''">true</RebuildOnVisualStudioPack>
+      <CustomPackTargets Condition="'$(RebuildOnVisualStudioPack)' == 'true'">Rebuild</CustomPackTargets>
+      <CustomPackTargets Condition="'$(RebuildOnVisualStudioPack)' == 'false'">Restore;Build</CustomPackTargets>
+
       <CustomPackBuildProperties>
         GeneratePackageOnBuild=true;
         NoBuild=false;
@@ -23,13 +27,13 @@
     </PropertyGroup>
     <Message Text="IsPackableCopy: $(IsPackableCopy)"/>
     <MSBuild
-       Targets="Restore;Build"
+       Targets="$(CustomPackTargets)"
       Condition="$(IsPackableCopy)"
              Projects="$(MSBuildProjectFullPath)"
              Properties="$(CustomPackBuildProperties)"/>
-    
+
   </Target>
 
 
- 
+
 </Project>
