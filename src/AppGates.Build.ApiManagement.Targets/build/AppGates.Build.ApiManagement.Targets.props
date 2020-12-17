@@ -3,7 +3,7 @@
   <PropertyGroup>
     <UseApiManagement>true</UseApiManagement>
   </PropertyGroup>
-  <Import Condition="$(UseApiManagement)" Project="LocalPack\LocalPack.props"/>
+  <!--<Import Condition="$(UseApiManagement)" Project="LocalPack\LocalPack.props"/>-->
   <Import Condition="$(UseApiManagement)" Project="ApiManagement\ApiManagement.props"/>
 
 

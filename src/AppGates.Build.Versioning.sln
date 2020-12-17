@@ -35,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AA4E5AFD-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Build.Versioning.Test.SingleTargetLibrary", "AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj", "{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.Deterministic", "AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj", "{AA78567E-25FA-4E08-94FF-823EC4C69703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +121,7 @@ Global
 		{4E2B49B8-5BBB-47DA-9A1A-3E3D9DDC0286} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 		{BCDCF0CA-6DBA-4703-8438-76E03A693711} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 		{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439} = {AA4E5AFD-F072-49CB-9240-18B1B4FCA462}
+		{AA78567E-25FA-4E08-94FF-823EC4C69703} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A1A1C38-2115-4B0C-AC66-0623B2BCB102}

@@ -1,0 +1,29 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <IsCiBuild>$(CI.Equals('true'))</IsCiBuild>
+    <AutoDeleteLockFileWhenDisabled Condition="'$(AutoDeleteLockFileWhenDisabled)' == ''">$(IsCiBuild.Equals(false))</AutoDeleteLockFileWhenDisabled>
+
+    <!--Opts into the usage of a lock file.-->
+    <RestorePackagesWithLockFile Condition="'$(RestorePackagesWithLockFile)' == ''">true</RestorePackagesWithLockFile>
+    <!--Enables locked mode for restore. This is useful in CI/CD scenarios where you want repeatable builds.-->
+    <RestoreLockedMode Condition="'$(RestoreLockedMode)' == ''">$(IsCiBuild)</RestoreLockedMode>
+
+    <!--Shall keep the floating version upgrade, but doesn't-->
+    <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals(false))</RestoreForceEvaluate>
+
+  </PropertyGroup>
+
+
+  <Import Project="WorkaroundForRevaluate.targets"
+          Condition="'$(RestorePackagesWithLockFile)' == 'true' AND '$(RestoreForceEvaluate)' == 'true'"/>
+
+  <Target
+    Name="AutoDeleteLockFileWhenDisabled"
+    BeforeTargets="Restore"
+    Condition="'$(AutoDeleteLockFileWhenDisabled)' == 'true' AND '$(RestorePackagesWithLockFile)' == 'true' AND Exists('$(NuGetLockFilePath)')"
+    >
+    <Delete Files="$(NuGetLockFilePath)" />
+  </Target>
+
+</Project>
