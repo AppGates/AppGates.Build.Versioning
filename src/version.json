@@ -8,6 +8,6 @@
     "^refs/heads/v\\d+\\.\\d+$" // servicing releases ship from vX.Y branches
   ],
 
-  //"pathFilters": [ "." ],
+  "pathFilters": [ "." ],
   "inherit": false
 }
