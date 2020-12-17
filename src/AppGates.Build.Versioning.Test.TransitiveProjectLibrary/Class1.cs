@@ -6,5 +6,6 @@ namespace AppGates.Build.Versioning.Test.TransitiveProjectLibrary
     {
 
 
+
     }
 }
