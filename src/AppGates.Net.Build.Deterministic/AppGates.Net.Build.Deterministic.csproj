@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="version.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="version.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="buildMultiTargeting\AppGates.Net.Build.Deterministic.props">
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
