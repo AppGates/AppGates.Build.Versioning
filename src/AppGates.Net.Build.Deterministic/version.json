@@ -3,5 +3,5 @@
 
   
   "pathFilters": [ "." ],
-  "inherit": false
+  "inherit": true
 }
