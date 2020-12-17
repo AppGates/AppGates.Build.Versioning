@@ -1,8 +1,12 @@
 ﻿<Project>
 
   <PropertyGroup>
-    <IsCiBuild>$(CI.Equals('true'))</IsCiBuild>
-    <AutoDeleteLockFileWhenDisabled Condition="'$(AutoDeleteLockFileWhenDisabled)' == ''">$(IsCiBuild.Equals(false))</AutoDeleteLockFileWhenDisabled>
+    <NugetLockFilePath>$(MSBuildProjectDirectory)\packages.lock.json</NugetLockFilePath>
+
+    
+
+    <IsCiBuild Condition="'$(IsCiBuild)' == ''" >$(CI.Equals('true'))</IsCiBuild>
+    <AutoDeleteLockFileWhenDisabled Condition="'$(AutoDeleteLockFileWhenDisabled)' == ''">$(IsCiBuild.Equals('False'))</AutoDeleteLockFileWhenDisabled>
 
     <!--Opts into the usage of a lock file.-->
     <RestorePackagesWithLockFile Condition="'$(RestorePackagesWithLockFile)' == ''">true</RestorePackagesWithLockFile>
@@ -10,9 +14,13 @@
     <RestoreLockedMode Condition="'$(RestoreLockedMode)' == ''">$(IsCiBuild)</RestoreLockedMode>
 
     <!--Shall keep the floating version upgrade, but doesn't-->
-    <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals(false))</RestoreForceEvaluate>
+    <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals('False'))</RestoreForceEvaluate>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <NugetLockAsset Include="$(NugetLockFilePath)"/>
+  </ItemGroup>
 
 
   <Import Project="WorkaroundForRevaluate.targets"
@@ -20,10 +28,10 @@
 
   <Target
     Name="AutoDeleteLockFileWhenDisabled"
-    BeforeTargets="Restore"
-    Condition="'$(AutoDeleteLockFileWhenDisabled)' == 'true' AND '$(RestorePackagesWithLockFile)' == 'true' AND Exists('$(NuGetLockFilePath)')"
+    BeforeTargets="_GetRestoreProjectStyle"
+    Condition="'$(AutoDeleteLockFileWhenDisabled)' == 'true' AND '$(RestorePackagesWithLockFile)' == 'false'"
     >
-    <Delete Files="$(NuGetLockFilePath)" />
+    <Delete Files="@(NugetLockAsset)" />
   </Target>
 
 </Project>

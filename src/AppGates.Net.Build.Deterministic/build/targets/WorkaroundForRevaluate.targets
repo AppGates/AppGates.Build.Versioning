@@ -3,22 +3,26 @@
  
   <!--hack to fix not working RestoreForceEvaluate property-->
   <PropertyGroup >
-    <OriginalNugetLockFilePath>$(MSBuildProjectDirectory)\packages.lock.json</OriginalNugetLockFilePath>
-    <NuGetLockFilePath>$(BaseIntermediateOutputPath)\packages.lock.temp</NuGetLockFilePath>
+    <OriginalNugetLockFilePath>$(NuGetLockFilePath)</OriginalNugetLockFilePath>
+    <NuGetLockFilePathTemp>$(BaseIntermediateOutputPath)packages.lock.temp</NuGetLockFilePathTemp>
+    <NuGetLockFilePath>$(NuGetLockFilePathTemp)</NuGetLockFilePath>
   </PropertyGroup>
-  
-  <Target Name="DeleteLockFileBeforeRestore" BeforeTargets="Restore">
+  <ItemGroup>
+    <NugetLockAsset Include="$(OriginalNugetLockFilePath)"/>
+    <NugetLockAsset Include="$(NuGetLockFilePathTemp)"/>
+  </ItemGroup>
+
+  <Target Name="DeleteLockFileBeforeRestore" BeforeTargets="_GetRestoreProjectStyle">
     <Delete Files="$(OriginalNugetLockFilePath)"/>
   </Target>
-  
-  <Target Name="CopyTempLockFile" AfterTargets="Restore" >
+
+  <Target Name="CopyTempLockFile" AfterTargets="_GetRestoreProjectStyle" >
     <Move
-      Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists('$(NuGetLockFilePath)')"
-      SourceFiles="$(NuGetLockFilePath)"
+      Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists('$(NuGetLockFilePathTemp)')"
+      SourceFiles="$(NuGetLockFilePathTemp)"
           DestinationFiles="$(OriginalNugetLockFilePath)"
           OverwriteReadOnlyFiles="true"/>
   </Target>
-
   <!--<Target Name="RestoreBeforeClean" 
           Condition="'$(TargetFrameworks)' == ''" 
           BeforeTargets="Clean">

@@ -1,12 +1,5 @@
 ﻿<Project>
 
-  <PropertyGroup>
-
-
-    <IsLocalBuild Condition="'$(IsLocalBuild)' == ''">$(CI.Equals('true').Equals(false))</IsLocalBuild>
-
-    <!--<PackDependencies>true</PackDependencies>-->
-  </PropertyGroup>
-
+  
 
 </Project>

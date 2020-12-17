@@ -1,14 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <PropertyGroup>
-
+    <!--<UseTimeStampAsLocalVersion>false</UseTimeStampAsLocalVersion>-->
+    <!--<NuGetLockFilePath>$(MSBuildProjectDirectory)\packages.lock.json</NuGetLockFilePath>-->
+    <!--<AutoDeleteLockFileWhenDisabled>true</AutoDeleteLockFileWhenDisabled>-->
+    <!--<RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>-->
     <!--<UseApiManagement>$(MSBuildProjectName.Equals('AppGates.Build.ApiManagement.Tasks').Equals(false))</UseApiManagement>-->
     <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
-    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+    <!--<RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>-->
     <!--<RebuildOnVisualStudioPack>true</RebuildOnVisualStudioPack>-->
 
     <UseVersioningSdk>true</UseVersioningSdk>
     <UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>
+
+
+    <TestProperty  >$(CI.Equals('true'))</TestProperty>
+    <TestProperty2 Condition="'$(TestProperty2)' == ''">$(TestProperty.Equals('False'))</TestProperty2>
+    <!--<TestProperty2 Condition="'$(TestProperty)' == 'false'">true</TestProperty2>-->
+
+
   </PropertyGroup>
   
   
@@ -37,12 +47,22 @@
     
     
     
-  <!--<PackageReference Include="AppGates.Net.Build.LocalVersioning" Version="*">
+  <PackageReference Include="AppGates.Net.Build.LocalVersioning" Version="*">
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; buildMultiTargeting; </IncludeAssets>
-  </PackageReference>-->
+  </PackageReference>
+    
+    <PackageReference Include="AppGates.Net.Build.Deterministic" Version="*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; buildMultiTargeting; </IncludeAssets>
+    </PackageReference>
 
   </ItemGroup>
+
+ 
+  
+  
+  
   <!--<PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>-->

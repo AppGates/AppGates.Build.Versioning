@@ -1,4 +1,7 @@
 ﻿<Project>
+  <PropertyGroup>
+    <UseTimeStampAsLocalVersion Condition="'$(UseTimeStampAsLocalVersion)' == ''">true</UseTimeStampAsLocalVersion>
+  </PropertyGroup>
   <!--BeforeTargets="_IntermediatePack;BeforeBuild;ResolveFrameworkReferencesDesignTime"-->
   <Target Name="IncrementLocalBuildId"
           BeforeTargets="_IntermediatePack;BeforeBuild"
@@ -43,7 +46,8 @@
 
   <Target Name="DoIncrementLocalBuildId">
     <PropertyGroup>
-      <LocalBuildId>$([MSBuild]::Add('$(LocalBuildId)', '1'))</LocalBuildId>
+      <LocalBuildId Condition="$(UseTimeStampAsLocalVersion) == true ">$([MSBuild]::Subtract($([System.Math]::Floor($([MSBuild]::Divide($([System.DateTime]::UtcNow.Ticks), 10000000)))), 62135596800))</LocalBuildId>
+      <LocalBuildId Condition="$(UseTimeStampAsLocalVersion) == false">$([MSBuild]::Add('$(LocalBuildId)', '1'))</LocalBuildId>
     </PropertyGroup>
     <Delete Files="$(VersionDirtyFileFullPath)"></Delete>
 
@@ -75,7 +79,6 @@
   </Target>
   <Target Name="GetLocalBuildId">
     <PropertyGroup>
-      <LocalBuildId>100000</LocalBuildId>
       <VersionFilePath>$(BaseIntermediateOutputPath)\local_build.version</VersionFilePath>
       <VersionFileFullPath>$([System.IO.Path]::GetFullPath('$(VersionFilePath)'))</VersionFileFullPath>
       <VersionDirtyFileFullPath>$(VersionFileFullPath).dirty</VersionDirtyFileFullPath>
@@ -83,6 +86,12 @@
     <ReadLinesFromFile Condition="Exists('$(VersionFileFullPath)')" File="$(VersionFileFullPath)">
       <Output TaskParameter="Lines" PropertyName="LocalBuildId"/>
     </ReadLinesFromFile>
+    <PropertyGroup Condition="Exists('$(VersionFileFullPath)') == false">
+      <!--get initial values-->
+      <LocalBuildId Condition="$(UseTimeStampAsLocalVersion) == true ">$([MSBuild]::Subtract($([System.Math]::Floor($([MSBuild]::Divide($([System.DateTime]::UtcNow.Ticks), 10000000)))), 62135596800))</LocalBuildId>
+      <LocalBuildId Condition="$(UseTimeStampAsLocalVersion) == false">100000</LocalBuildId>
+
+    </PropertyGroup>
     <Message Text="Read Local Build Id '$(LocalBuildId)' from 'file://$(VersionFileFullPath)'"/>
   </Target>
 
