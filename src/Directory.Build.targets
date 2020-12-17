@@ -19,7 +19,7 @@
     <Message Importance="high" Text="CleanOnly"/>
     <!--<Message Importance="high" Text="IsLocalBuild: $(IsLocalBuild)"/>-->
     <Delete Condition="'$(RestorePackagesWithLockFile)' != 'true'" Files="$(MSBuildProjectDirectory)\packages.lock.json"/>
-    <CallTarget Targets="Restore"/>
+    <!--<CallTarget Targets="Restore"/>-->
   </Target>
   
   <!--Begin: Avoid cycle error when package builds itself-->

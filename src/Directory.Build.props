@@ -37,10 +37,10 @@
     
     
     
-  <PackageReference Include="AppGates.Net.Build.LocalVersioning" Version="*">
+  <!--<PackageReference Include="AppGates.Net.Build.LocalVersioning" Version="*">
     <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; buildMultiTargeting; </IncludeAssets>
-  </PackageReference>
+  </PackageReference>-->
 
   </ItemGroup>
   <!--<PropertyGroup>
