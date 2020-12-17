@@ -8,6 +8,7 @@ namespace AppGates.Build.Versioning.Test.ReferencingLibrary
 
 
 
+
         public void DummyTest()
         {
             _ = new TransitiveClass();
