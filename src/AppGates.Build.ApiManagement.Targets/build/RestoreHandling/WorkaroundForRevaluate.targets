@@ -8,15 +8,17 @@
     <RestorePackagesWithLockFile>$(RestoreForceEvaluate.Equals('false').Equals(false))</RestorePackagesWithLockFile>
   </PropertyGroup>
 
-  <Target Name="CopyTempLockFile" BeforeTargets="PrepareForBuild" >
-    <Copy
+  <Target Name="CopyTempLockFile" AfterTargets="Restore" >
+    <Move
       Condition="'$(RestoreForceEvaluate)' == 'true' AND Exists($(NuGetLockFilePath))"
       SourceFiles="$(NuGetLockFilePath)"
           DestinationFiles="$(OriginalNugetLockFilePath)"
           OverwriteReadOnlyFiles="true"/>
   </Target>
 
-  <Target Name="RestoreBeforeClean" BeforeTargets="Clean">
+  <Target Name="RestoreBeforeClean" 
+          Condition="'$(TargetFrameworks)' == ''" 
+          BeforeTargets="Clean">
     <CallTarget Targets="Restore"/>
   </Target>
 

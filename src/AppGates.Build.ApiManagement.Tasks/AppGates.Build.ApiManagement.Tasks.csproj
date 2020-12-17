@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AvoidCycleErrorOnSelfReference>true</AvoidCycleErrorOnSelfReference>
+
     <TargetFramework>netstandard2.0</TargetFramework>
     <!--<RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>-->
   </PropertyGroup>

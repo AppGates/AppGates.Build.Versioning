@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <None Update="build/**" PackagePath="/" Pack="true" />
+    <None Update="buildMultitargeting/**" PackagePath="/" Pack="true" />
   </ItemGroup>
-
-
 </Project>

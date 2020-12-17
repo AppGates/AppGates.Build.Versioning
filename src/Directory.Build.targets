@@ -1,4 +1,27 @@
 ﻿<Project>
+  <PropertyGroup>
+    <RebuildDependsOn>
+      DetectRebuild;
+      $(RebuildDependsOn);
+    </RebuildDependsOn>
+  </PropertyGroup>
+  <Target Name="DetectRebuild" >
+    <!--<Message Importance="high" Text="Rebuilding..."/>-->
+    <PropertyGroup>
+      <IsRebuild>true</IsRebuild>
+    </PropertyGroup>
+  </Target>
+  <Target Name="TriggerCleanOnly" AfterTargets="Clean" >
+    <!--<Message Importance="high" Text="Cleaned..."/>-->
+    <CallTarget Condition="'$(IsRebuild)' != 'true'" Targets="CleanOnly"/>
+  </Target>
+  <Target Name="CleanOnly">
+    <Message Importance="high" Text="CleanOnly"/>
+    <!--<Message Importance="high" Text="IsLocalBuild: $(IsLocalBuild)"/>-->
+    <Delete Condition="'$(RestorePackagesWithLockFile)' != 'true'" Files="$(MSBuildProjectDirectory)\packages.lock.json"/>
+    <CallTarget Targets="Restore"/>
+  </Target>
+  
   <!--Begin: Avoid cycle error when package builds itself-->
   <Choose>
     <When Condition="$(AvoidCycleErrorOnSelfReference) == 'true'">
@@ -16,6 +39,6 @@
   </Target>
   <!--End: Avoid cycle error when package builds itself-->
   
-  <Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.targets"/>
+  <!--<Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.targets"/>-->
 
 </Project>

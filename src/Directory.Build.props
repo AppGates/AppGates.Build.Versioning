@@ -1,16 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <PropertyGroup>
+
     <!--<UseApiManagement>$(MSBuildProjectName.Equals('AppGates.Build.ApiManagement.Tasks').Equals(false))</UseApiManagement>-->
     <PackageOutputPath>$(MSBuildThisFileDirectory)\pack\</PackageOutputPath>
-    <RebuildOnVisualStudioPack>false</RebuildOnVisualStudioPack>
+    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+    <!--<RebuildOnVisualStudioPack>true</RebuildOnVisualStudioPack>-->
 
     <UseVersioningSdk>true</UseVersioningSdk>
     <UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>
   </PropertyGroup>
+  
+  
+  <ItemGroup>
+  <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="*">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
 
 
-  <Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.props"/>
+  <PackageReference Include="Nerdbank.GitVersioning" Version="*">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
+
+  <!--<PackageReference Include="AppGates.Build.ApiManagement.Targets" Version="*">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; buildMultiTargeting; </IncludeAssets>
+  </PackageReference>-->
+  
+  
+  <PackageReference Include="AppGates.Net.Build.TransitivePack" Version="*">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; buildMultiTargeting; </IncludeAssets>
+  </PackageReference>
+    
+    
+    
+  <PackageReference Include="AppGates.Net.Build.LocalVersioning" Version="*">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive; buildMultiTargeting; </IncludeAssets>
+  </PackageReference>
+
+  </ItemGroup>
+  <!--<PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>-->
+
+  
+  <!--<Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.props"/>-->
+
 
   <!--<ItemGroup>
     <PackageReference 
@@ -19,4 +58,7 @@
   </ItemGroup>-->
 
 
+  
+  
+  
 </Project>

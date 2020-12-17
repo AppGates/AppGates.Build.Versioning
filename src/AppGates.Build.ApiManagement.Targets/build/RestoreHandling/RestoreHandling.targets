@@ -11,6 +11,7 @@
     <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals(false))</RestoreForceEvaluate>
 
   </PropertyGroup>
-  <Import Project="WorkaroundForRevaluate.targets" Condition="'$(RestoreForceEvaluate)' != 'false'"/>
+  <Import Project="WorkaroundForRevaluate.targets" 
+          Condition="'$(RestorePackagesWithLockFile)' == 'true' AND '$(RestoreForceEvaluate)' != 'false'"/>
 
 </Project>
