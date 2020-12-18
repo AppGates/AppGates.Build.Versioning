@@ -1,8 +1,8 @@
 ﻿<Project>
   <PropertyGroup>
 
-    <IsPackableCopy>true</IsPackableCopy>
-    <IsPackableCopy Condition="'$(IsPackable)' == 'false'">false</IsPackableCopy>
+    <IsPackableCopy>$(IsPackable)</IsPackableCopy>
+    <IsPackableCopy Condition="'$(IsPackableCopy)' == ''">true</IsPackableCopy>
 
   </PropertyGroup>
 
