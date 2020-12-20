@@ -4,6 +4,9 @@
     <AvoidCycleErrorOnSelfReference>true</AvoidCycleErrorOnSelfReference>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+  <!--<ItemGroup>
+    <ProjectReference Include="..\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj" />
+  </ItemGroup>-->
 
   <ItemGroup>
     <None Update="buildMultiTargeting\AppGates.Net.Build.Deterministic.props">
@@ -11,6 +14,14 @@
       <Pack>true</Pack>
     </None>
     <None Update="buildMultiTargeting\AppGates.Net.Build.Deterministic.targets">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Update="buildTransitive\AppGates.Net.Build.Deterministic.props">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Update="buildTransitive\AppGates.Net.Build.Deterministic.targets">
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
     </None>
@@ -22,11 +33,15 @@
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
     </None>
-    <None Update="build\targets\RestoreHandling.targets">
+    <None Update="build\targets\ProvideCleanOnlyHook.targets">
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
     </None>
-    <None Update="build\targets\WorkaroundForRevaluate.targets">
+    <None Update="build\targets\FixRebuildForMultiTargetProjects.targets">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+    <None Update="build\targets\RestoreHandling.targets">
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
     </None>

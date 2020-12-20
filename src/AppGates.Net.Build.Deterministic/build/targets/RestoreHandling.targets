@@ -16,22 +16,46 @@
     <!--Shall keep the floating version upgrade, but doesn't-->
     <RestoreForceEvaluate Condition="'$(RestoreForceEvaluate)' == ''">$(RestoreLockedMode.Equals('False'))</RestoreForceEvaluate>
 
+    <ForceRestoreOnVisualStudioRebuild Condition="'$(ForceRestoreOnVisualStudioRebuild)' == ''">false</ForceRestoreOnVisualStudioRebuild>
+    <ForceRestoreOnVisualStudioClean Condition="'$(ForceRestoreOnVisualStudioClean)' == ''">true</ForceRestoreOnVisualStudioClean>
+    <ForceRestoreOnVisualStudioPack Condition="'$(ForceRestoreOnVisualStudioPack)' == ''">true</ForceRestoreOnVisualStudioPack>
+
+    <ForceRestoreInVisualStudioBuildBeforeTargets></ForceRestoreInVisualStudioBuildBeforeTargets>
   </PropertyGroup>
-
-  <ItemGroup>
+  <PropertyGroup Condition="'$(ForceRestoreOnVisualStudioRebuild)' == 'true'">
+    <RebuildHookTarget>BeforeRebuild</RebuildHookTarget>
+    <ForceRestoreInVisualStudioBuildBeforeTargets>$(ForceRestoreInVisualStudioBuildBeforeTargets);BeforeRebuild;</ForceRestoreInVisualStudioBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(ForceRestoreOnVisualStudioClean)' == 'true'">
+    <ForceRestoreInVisualStudioBuildBeforeTargets>$(ForceRestoreInVisualStudioBuildBeforeTargets);CleanOnly;</ForceRestoreInVisualStudioBuildBeforeTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(ForceRestoreOnVisualStudioPack)' == 'true'">
+    <ForceRestoreInVisualStudioBuildBeforeTargets>$(ForceRestoreInVisualStudioBuildBeforeTargets);Pack;</ForceRestoreInVisualStudioBuildBeforeTargets>
+  </PropertyGroup>
+  <!--<ItemGroup>
     <NugetLockAsset Include="$(NugetLockFilePath)"/>
-  </ItemGroup>
+  </ItemGroup>-->
 
 
-  <Import Project="WorkaroundForRevaluate.targets"
-          Condition="'$(RestorePackagesWithLockFile)' == 'true' AND '$(RestoreForceEvaluate)' == 'true'"/>
+  <Target Name="FixForceRestoreInVisualStudioBuild" 
+          Condition="'$(BuildingInsideVisualStudio)' == 'true' AND '$(RestorePackagesWithLockFile)' == 'true' AND '$(RestoreForceEvaluate)' == 'true'" 
+          BeforeTargets="$(ForceRestoreInVisualStudioBuildBeforeTargets)">
+    <Delete  FileS="$(BaseIntermediateOutputPath)\project.nuget.cache"/>
+    <WriteLinesToFile
+                    File="$(MSBuildProjectDirectory)\packages.lock.json"
+                     Lines=" " Overwrite="true"/>
+
+    <!--The restore target seems not to work directly on multi target projects, therefore we use dotnet restore instead-->
+    <Exec Command="dotnet restore" Condition="'$(TargetFrameworks)' != ''" WorkingDirectory="$(MSBuildProjectDirectory)"/>
+    <CallTarget  Condition="'$(TargetFrameworks)' == ''" Targets="Restore"/>
+  </Target>
 
   <Target
     Name="AutoDeleteLockFileWhenDisabled"
     BeforeTargets="_GetRestoreProjectStyle"
     Condition="'$(AutoDeleteLockFileWhenDisabled)' == 'true' AND '$(RestorePackagesWithLockFile)' == 'false'"
     >
-    <Delete Files="@(NugetLockAsset)" />
+    <Delete Files="$(MSBuildProjectDirectory)\packages.lock.json" />
   </Target>
 
 </Project>

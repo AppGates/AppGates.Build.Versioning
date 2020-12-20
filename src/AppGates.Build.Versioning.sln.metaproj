@@ -27,6 +27,12 @@
   <ProjectConfiguration Project="{3A131967-EDD0-4E4B-84D6-08765553356D}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
   <ProjectConfiguration Project="{761E9646-BEE4-48F1-A882-768220D03513}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
   <ProjectConfiguration Project="{DBB6D0C4-EE90-4AC4-A971-8936B96FBFF3}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{4E2B49B8-5BBB-47DA-9A1A-3E3D9DDC0286}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BCDCF0CA-6DBA-4703-8438-76E03A693711}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AA78567E-25FA-4E08-94FF-823EC4C69703}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{DFC5F3AF-800C-4759-B34B-7317032A45E7}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
     </CurrentSolutionConfigurationContents>
     <MicrosoftNETBuildTasksDirectoryRoot>C:\Program Files\dotnet\sdk\5.0.101\Sdks\Microsoft.NET.Sdk\targets\..\tools\</MicrosoftNETBuildTasksDirectoryRoot>
@@ -77,6 +83,12 @@
   <ProjectConfiguration Project="{3A131967-EDD0-4E4B-84D6-08765553356D}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
   <ProjectConfiguration Project="{761E9646-BEE4-48F1-A882-768220D03513}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
   <ProjectConfiguration Project="{DBB6D0C4-EE90-4AC4-A971-8936B96FBFF3}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{4E2B49B8-5BBB-47DA-9A1A-3E3D9DDC0286}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BCDCF0CA-6DBA-4703-8438-76E03A693711}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AA78567E-25FA-4E08-94FF-823EC4C69703}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{DFC5F3AF-800C-4759-B34B-7317032A45E7}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
       </Content>
       <Platform>Any CPU</Platform>
@@ -96,6 +108,12 @@
   <ProjectConfiguration Project="{3A131967-EDD0-4E4B-84D6-08765553356D}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
   <ProjectConfiguration Project="{761E9646-BEE4-48F1-A882-768220D03513}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
   <ProjectConfiguration Project="{DBB6D0C4-EE90-4AC4-A971-8936B96FBFF3}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{4E2B49B8-5BBB-47DA-9A1A-3E3D9DDC0286}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{BCDCF0CA-6DBA-4703-8438-76E03A693711}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AA78567E-25FA-4E08-94FF-823EC4C69703}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{DFC5F3AF-800C-4759-B34B-7317032A45E7}" AbsolutePath="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
       </Content>
       <Platform>Any CPU</Platform>
@@ -191,25 +209,73 @@
       </ToolsVersion>
       <SkipNonexistentProjects>False</SkipNonexistentProjects>
     </ProjectReference>
+    <ProjectReference Include="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj">
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Platform>AnyCPU</Platform>
+      <Configuration>Debug</Configuration>
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj">
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Platform>AnyCPU</Platform>
+      <Configuration>Debug</Configuration>
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj">
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Platform>AnyCPU</Platform>
+      <Configuration>Debug</Configuration>
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj">
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Platform>AnyCPU</Platform>
+      <Configuration>Debug</Configuration>
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj">
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Platform>AnyCPU</Platform>
+      <Configuration>Debug</Configuration>
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj">
+      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
+      <Platform>AnyCPU</Platform>
+      <Configuration>Debug</Configuration>
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+    </ProjectReference>
   </ItemGroup>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" Code="MSB4126" Text="Die angegebene Projektmappenkonfiguration &quot;$(Configuration)|$(Platform)&quot; ist ungültig. Geben Sie mithilfe der Konfigurations- und Plattformeigenschaften eine gültige Projektmappenkonfiguration an (z. B. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;), oder lassen Sie diese Eigenschaften leer, sodass die Standardprojektmappenkonfiguration verwendet wird." HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Warning Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" Code="MSB4126" Text="Die angegebene Projektmappenkonfiguration &quot;$(Configuration)|$(Platform)&quot; ist ungültig. Geben Sie mithilfe der Konfigurations- und Plattformeigenschaften eine gültige Projektmappenkonfiguration an (z. B. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;), oder lassen Sie diese Eigenschaften leer, sodass die Standardprojektmappenkonfiguration verwendet wird." HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Message Condition="'$(CurrentSolutionConfigurationContents)' != ''" Text="Die Projektmappenkonfiguration &quot;$(Configuration)|$(Platform)&quot; wird erstellt." />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" Code="MSB4149" Text="Die Toolsversion $(MSBuildToolsVersion) der Projektmappe unterstützt das Erstellen von Projekten mit unterschiedlichen Toolsversionen nicht." HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" />
+  </Target>
   <Target Name="Restore" DependsOnTargets="_GenerateRestoreGraph">
     <RemoveDuplicates Inputs="@(_RestoreGraphEntry)">
       <Output TaskParameter="Filtered" ItemName="_RestoreGraphEntryFiltered" />
     </RemoveDuplicates>
-    <RestoreTask RestoreIgnoreFailedSources="$(RestoreIgnoreFailedSources)" RestoreDisableParallel="$(RestoreDisableParallel)" HideWarningsAndErrors="$(HideWarningsAndErrors)" Interactive="$(NuGetInteractive)" RestoreForceEvaluate="$(RestoreForceEvaluate)" RestoreGraphItems="@(_RestoreGraphEntryFiltered)" RestoreForce="$(RestoreForce)" RestorePackagesConfig="$(RestorePackagesConfig)" RestoreRecursive="$(RestoreRecursive)" RestoreNoCache="$(RestoreNoCache)" />
-  </Target>
-  <Target Name="ValidateSolutionConfiguration">
-    <Error Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Text="Die angegebene Projektmappenkonfiguration &quot;$(Configuration)|$(Platform)&quot; ist ungültig. Geben Sie mithilfe der Konfigurations- und Plattformeigenschaften eine gültige Projektmappenkonfiguration an (z. B. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;), oder lassen Sie diese Eigenschaften leer, sodass die Standardprojektmappenkonfiguration verwendet wird." />
-    <Warning Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Text="Die angegebene Projektmappenkonfiguration &quot;$(Configuration)|$(Platform)&quot; ist ungültig. Geben Sie mithilfe der Konfigurations- und Plattformeigenschaften eine gültige Projektmappenkonfiguration an (z. B. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;), oder lassen Sie diese Eigenschaften leer, sodass die Standardprojektmappenkonfiguration verwendet wird." />
-    <Message Condition="'$(CurrentSolutionConfigurationContents)' != ''" Text="Die Projektmappenkonfiguration &quot;$(Configuration)|$(Platform)&quot; wird erstellt." />
-  </Target>
-  <Target Name="ValidateToolsVersions">
-    <Error Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" Text="Die Toolsversion $(MSBuildToolsVersion) der Projektmappe unterstützt das Erstellen von Projekten mit unterschiedlichen Toolsversionen nicht." />
+    <RestoreTask RestoreRecursive="$(RestoreRecursive)" HideWarningsAndErrors="$(HideWarningsAndErrors)" RestoreGraphItems="@(_RestoreGraphEntryFiltered)" RestoreForce="$(RestoreForce)" RestoreIgnoreFailedSources="$(RestoreIgnoreFailedSources)" RestoreNoCache="$(RestoreNoCache)" RestoreDisableParallel="$(RestoreDisableParallel)" RestoreForceEvaluate="$(RestoreForceEvaluate)" RestorePackagesConfig="$(RestorePackagesConfig)" Interactive="$(NuGetInteractive)" />
   </Target>
   <Target Name="ValidateProjects" />
   <Target Name="GetSolutionConfigurationContents" Outputs="$(SolutionConfigurationContents)" />
   <Target Name="GetTargetFrameworkProperties" Returns="TargetFramework=$(NearestTargetFramework);ProjectHasSingleTargetFramework=$(_HasSingleTargetFramework);ProjectIsRidAgnostic=$(_IsRidAgnostic)">
-    <GetNearestTargetFramework Condition="'$(_SkipNearestTargetFrameworkResolution)' != 'true'" ReferringTargetFramework="$(ReferringTargetFramework)" PossibleTargetFrameworks="$(_PossibleTargetFrameworks)" ProjectFilePath="$(MSBuildProjectFullPath)">
+    <GetNearestTargetFramework Condition="'$(_SkipNearestTargetFrameworkResolution)' != 'true'" PossibleTargetFrameworks="$(_PossibleTargetFrameworks)" ProjectFilePath="$(MSBuildProjectFullPath)" ReferringTargetFramework="$(ReferringTargetFramework)">
       <Output TaskParameter="NearestTargetFramework" ItemName="NearestTargetFramework" />
     </GetNearestTargetFramework>
   </Target>
@@ -221,7 +287,7 @@
     <RemoveDuplicates Inputs="@(_RestoreGraphEntry)">
       <Output TaskParameter="Filtered" ItemName="_RestoreGraphEntryFiltered" />
     </RemoveDuplicates>
-    <WriteRestoreGraphTask RestoreGraphItems="@(_RestoreGraphEntryFiltered)" RestoreGraphOutputPath="$(RestoreGraphOutputPath)" RestoreRecursive="$(RestoreRecursive)" />
+    <WriteRestoreGraphTask RestoreRecursive="$(RestoreRecursive)" RestoreGraphItems="@(_RestoreGraphEntryFiltered)" RestoreGraphOutputPath="$(RestoreGraphOutputPath)" />
   </Target>
   <Target Name="CollectPackageReferences" Returns="@(PackageReference)" />
   <Target Name="CollectCentralPackageVersions" Returns="@(PackageVersion)" />
@@ -236,10 +302,10 @@
     <RemoveDuplicates Inputs="@(_FilteredRestoreGraphProjectInputItemsTmp)">
       <Output TaskParameter="Filtered" ItemName="FilteredRestoreGraphProjectInputItemsWithoutDuplicates" />
     </RemoveDuplicates>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " BuildInParallel="$(RestoreBuildInParallel)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" SkipNonexistentTargets="true" Projects="@(FilteredRestoreGraphProjectInputItemsWithoutDuplicates)" Targets="_IsProjectRestoreSupported">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_IsProjectRestoreSupported" Projects="@(FilteredRestoreGraphProjectInputItemsWithoutDuplicates)" BuildInParallel="$(RestoreBuildInParallel)" SkipNonexistentTargets="true">
       <Output TaskParameter="TargetOutputs" ItemName="FilteredRestoreGraphProjectInputItems" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="@(FilteredRestoreGraphProjectInputItemsWithoutDuplicates)" Targets="_IsProjectRestoreSupported">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_IsProjectRestoreSupported" Projects="@(FilteredRestoreGraphProjectInputItemsWithoutDuplicates)">
       <Output TaskParameter="TargetOutputs" ItemName="FilteredRestoreGraphProjectInputItems" />
     </MSBuild>
     <WarnForInvalidProjectsTask Condition=" '$(DisableWarnForInvalidRestoreProjects)' != 'true' AND '$(HideWarningsAndErrors)' != 'true' " AllProjects="@(FilteredRestoreGraphProjectInputItemsWithoutDuplicates)" ValidProjects="@(FilteredRestoreGraphProjectInputItems)" />
@@ -247,10 +313,10 @@
   <Target Name="_GenerateRestoreGraph" DependsOnTargets="_FilterRestoreGraphProjectInputItems;_GetAllRestoreProjectPathItems" Returns="@(_RestoreGraphEntry)">
     <Message Importance="low" Text="Generating dg file" />
     <Message Importance="low" Text="%(_RestoreProjectPathItems.Identity)" />
-    <MSBuild BuildInParallel="$(RestoreBuildInParallel)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="@(_GenerateRestoreGraphProjectEntryInput)" Targets="_GenerateRestoreGraphProjectEntry">
+    <MSBuild Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreGraphProjectEntry" Projects="@(_GenerateRestoreGraphProjectEntryInput)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreGraphEntry" />
     </MSBuild>
-    <MSBuild BuildInParallel="$(RestoreBuildInParallel)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="@(_RestoreProjectPathItems)" Targets="_GenerateProjectRestoreGraph">
+    <MSBuild Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateProjectRestoreGraph" Projects="@(_RestoreProjectPathItems)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreGraphEntry" />
     </MSBuild>
   </Target>
@@ -259,7 +325,7 @@
     <Message Importance="low" Text="Restore entry point $(MSBuildProjectFullPath)" />
   </Target>
   <Target Name="_GenerateDotnetCliToolReferenceSpecs" DependsOnTargets="_GetRestoreSettings" Returns="@(_RestoreGraphEntry)">
-    <GetRestoreDotnetCliToolsTask Condition=" '$(RestoreDotnetCliToolReferences)' == '' OR '$(RestoreDotnetCliToolReferences)' == 'true' " RestoreConfigFilePaths="$(_OutputConfigFilePaths)" RestoreFallbackFolders="$(_OutputFallbackFolders)" RestorePackagesPath="$(_OutputPackagesPath)" DotnetCliToolReferences="@(DotnetCliToolReference)" RestoreSources="$(_OutputSources)" ToolFramework="$(DotnetCliToolTargetFramework)" ProjectPath="$(MSBuildProjectFullPath)">
+    <GetRestoreDotnetCliToolsTask Condition=" '$(RestoreDotnetCliToolReferences)' == '' OR '$(RestoreDotnetCliToolReferences)' == 'true' " ToolFramework="$(DotnetCliToolTargetFramework)" RestoreFallbackFolders="$(_OutputFallbackFolders)" RestoreSources="$(_OutputSources)" ProjectPath="$(MSBuildProjectFullPath)" RestoreConfigFilePaths="$(_OutputConfigFilePaths)" DotnetCliToolReferences="@(DotnetCliToolReference)" RestorePackagesPath="$(_OutputPackagesPath)">
       <Output TaskParameter="RestoreGraphItems" ItemName="_RestoreGraphEntry" />
     </GetRestoreDotnetCliToolsTask>
   </Target>
@@ -269,20 +335,20 @@
     </GetRestoreProjectJsonPathTask>
   </Target>
   <Target Name="_GetRestoreProjectStyle" DependsOnTargets="_GetProjectJsonPath;CollectPackageReferences" Returns="$(RestoreProjectStyle);$(PackageReferenceCompatibleProjectStyle)">
-    <GetRestoreProjectStyleTask MSBuildProjectDirectory="$(MSBuildProjectDirectory)" MSBuildProjectName="$(MSBuildProjectName)" ProjectJsonPath="$(_CurrentProjectJsonPath)" RestoreProjectStyle="$(RestoreProjectStyle)" HasPackageReferenceItems="$(_HasPackageReferenceItems)">
+    <GetRestoreProjectStyleTask MSBuildProjectDirectory="$(MSBuildProjectDirectory)" MSBuildProjectName="$(MSBuildProjectName)" ProjectJsonPath="$(_CurrentProjectJsonPath)" HasPackageReferenceItems="$(_HasPackageReferenceItems)" RestoreProjectStyle="$(RestoreProjectStyle)">
       <Output TaskParameter="ProjectStyle" ItemName="RestoreProjectStyle" />
       <Output TaskParameter="IsPackageReferenceCompatibleProjectStyle" ItemName="PackageReferenceCompatibleProjectStyle" />
     </GetRestoreProjectStyleTask>
   </Target>
   <Target Name="EnableIntermediateOutputPathMismatchWarning" Condition="'$(RestoreProjectStyle)' == 'PackageReference'" DependsOnTargets="_GetRestoreProjectStyle" />
   <Target Name="_GetRestoreTargetFrameworksOutput" DependsOnTargets="_GetRestoreProjectStyle" Returns="@(_RestoreTargetFrameworksOutputFiltered)">
-    <GetProjectTargetFrameworksTask Condition=" '$(RestoreProjectStyle)' != 'ProjectJson' OR '$(PackageReferenceCompatibleProjectStyle)' == 'true' " TargetPlatformVersion="$(TargetPlatformVersion)" TargetFrameworks="$(TargetFrameworks)" TargetFramework="$(TargetFramework)" TargetPlatformIdentifier="$(TargetPlatformIdentifier)" TargetFrameworkMoniker="$(TargetFrameworkMoniker)" TargetPlatformMinVersion="$(TargetPlatformMinVersion)" ProjectPath="$(MSBuildProjectFullPath)">
+    <GetProjectTargetFrameworksTask Condition=" '$(RestoreProjectStyle)' != 'ProjectJson' OR '$(PackageReferenceCompatibleProjectStyle)' == 'true' " TargetPlatformMinVersion="$(TargetPlatformMinVersion)" TargetPlatformVersion="$(TargetPlatformVersion)" TargetPlatformIdentifier="$(TargetPlatformIdentifier)" TargetFrameworkMoniker="$(TargetFrameworkMoniker)" ProjectPath="$(MSBuildProjectFullPath)" TargetFramework="$(TargetFramework)" TargetFrameworks="$(TargetFrameworks)">
       <Output TaskParameter="ProjectTargetFrameworks" ItemName="_RestoreProjectFramework" />
     </GetProjectTargetFrameworksTask>
   </Target>
   <Target Name="_GetRestoreTargetFrameworksAsItems" DependsOnTargets="_GetRestoreProjectStyle" Returns="@(_RestoreTargetFrameworkItems)" />
   <Target Name="_GetRestoreSettings" Condition=" '$(RestoreProjectStyle)' == 'PackageReference' OR '$(RestoreProjectStyle)' == 'ProjectJson' OR '$(RestoreProjectStyle)' == 'DotnetToolReference' OR '$(RestoreProjectStyle)' == 'PackagesConfig'" DependsOnTargets="_GetRestoreSettingsOverrides;_GetRestoreSettingsCurrentProject;_GetRestoreSettingsAllFrameworks" Returns="$(_OutputSources);$(_OutputPackagesPath);$(_OutputRepositoryPath);$(_OutputFallbackFolders);$(_OutputConfigFilePaths)">
-    <GetRestoreSettingsTask RestoreSolutionDirectory="$(RestoreSolutionDirectory)" RestoreRootConfigDirectory="$(RestoreRootConfigDirectory)" RestoreFallbackFolders="$(RestoreFallbackFolders)" RestoreRepositoryPathOverride="$(_RestoreRepositoryPathOverride)" RestorePackagesPathOverride="$(_RestorePackagesPathOverride)" RestorePackagesPath="$(RestorePackagesPath)" RestoreRepositoryPath="$(RestoreRepositoryPath)" RestoreProjectStyle="$(RestoreProjectStyle)" MSBuildStartupDirectory="$(MSBuildStartupDirectory)" RestoreConfigFile="$(RestoreConfigFile)" RestoreFallbackFoldersOverride="$(_RestoreFallbackFoldersOverride)" RestoreSources="$(RestoreSources)" RestoreSourcesOverride="$(_RestoreSourcesOverride)" ProjectUniqueName="$(MSBuildProjectFullPath)" RestoreSettingsPerFramework="@(_RestoreSettingsPerFramework)">
+    <GetRestoreSettingsTask RestoreFallbackFolders="$(RestoreFallbackFolders)" RestoreSources="$(RestoreSources)" RestoreSettingsPerFramework="@(_RestoreSettingsPerFramework)" RestoreSolutionDirectory="$(RestoreSolutionDirectory)" ProjectUniqueName="$(MSBuildProjectFullPath)" RestoreFallbackFoldersOverride="$(_RestoreFallbackFoldersOverride)" RestoreRepositoryPath="$(RestoreRepositoryPath)" RestoreRootConfigDirectory="$(RestoreRootConfigDirectory)" RestoreRepositoryPathOverride="$(_RestoreRepositoryPathOverride)" RestoreConfigFile="$(RestoreConfigFile)" RestorePackagesPathOverride="$(_RestorePackagesPathOverride)" MSBuildStartupDirectory="$(MSBuildStartupDirectory)" RestoreSourcesOverride="$(_RestoreSourcesOverride)" RestoreProjectStyle="$(RestoreProjectStyle)" RestorePackagesPath="$(RestorePackagesPath)">
       <Output TaskParameter="OutputSources" ItemName="_OutputSources" />
       <Output TaskParameter="OutputPackagesPath" ItemName="_OutputPackagesPath" />
       <Output TaskParameter="OutputRepositoryPath" ItemName="_OutputRepositoryPath" />
@@ -292,7 +358,7 @@
   </Target>
   <Target Name="_GetRestoreSettingsCurrentProject" Condition=" '$(TargetFrameworks)' == '' AND '$(PackageReferenceCompatibleProjectStyle)' == 'true' " DependsOnTargets="_GetRestoreSettingsPerFramework" Returns="@(_RestoreSettingsPerFramework)" />
   <Target Name="_GetRestoreSettingsAllFrameworks" Condition=" '$(TargetFrameworks)' != '' AND '$(PackageReferenceCompatibleProjectStyle)' == 'true' " DependsOnTargets="_GetRestoreTargetFrameworksAsItems;_GetRestoreProjectStyle" Returns="@(_RestoreSettingsPerFramework)">
-    <MSBuild BuildInParallel="$(RestoreBuildInParallel)" Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="$(MSBuildProjectFullPath)" Targets="_GetRestoreSettingsPerFramework">
+    <MSBuild Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GetRestoreSettingsPerFramework" Projects="$(MSBuildProjectFullPath)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreSettingsPerFramework" />
     </MSBuild>
   </Target>
@@ -305,25 +371,25 @@
   <Target Name="_GenerateProjectRestoreGraph" DependsOnTargets="&#xD;&#xA;      _GetRestoreProjectStyle;&#xD;&#xA;      _GenerateRestoreProjectSpec;&#xD;&#xA;      _GenerateRestoreDependencies" Returns="@(_RestoreGraphEntry)" />
   <Target Name="_GenerateRestoreDependencies" DependsOnTargets="_GenerateProjectRestoreGraphAllFrameworks;_GenerateProjectRestoreGraphCurrentProject" Returns="@(_RestoreGraphEntry)" />
   <Target Name="_GenerateProjectRestoreGraphAllFrameworks" Condition=" '$(TargetFrameworks)' != '' " DependsOnTargets="_GetRestoreTargetFrameworksAsItems" Returns="@(_RestoreGraphEntry)">
-    <MSBuild BuildInParallel="$(RestoreBuildInParallel)" Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="$(MSBuildProjectFullPath)" Targets="_GenerateProjectRestoreGraphPerFramework">
+    <MSBuild Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateProjectRestoreGraphPerFramework" Projects="$(MSBuildProjectFullPath)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreGraphEntry" />
     </MSBuild>
   </Target>
   <Target Name="_GenerateProjectRestoreGraphCurrentProject" Condition=" '$(TargetFrameworks)' == '' " DependsOnTargets="_GenerateProjectRestoreGraphPerFramework" Returns="@(_RestoreGraphEntry)" />
   <Target Name="_GenerateProjectRestoreGraphPerFramework" DependsOnTargets="_GetRestoreProjectStyle;CollectPackageReferences;CollectPackageDownloads;CollectFrameworkReferences;CollectCentralPackageVersions" Returns="@(_RestoreGraphEntry)">
-    <GetRestoreProjectReferencesTask ProjectReferences="@(ProjectReference)" TargetFrameworks="$(TargetFramework)" ParentProjectPath="$(MSBuildProjectFullPath)" ProjectUniqueName="$(MSBuildProjectFullPath)">
+    <GetRestoreProjectReferencesTask ParentProjectPath="$(MSBuildProjectFullPath)" ProjectReferences="@(ProjectReference)" ProjectUniqueName="$(MSBuildProjectFullPath)" TargetFrameworks="$(TargetFramework)">
       <Output TaskParameter="RestoreGraphItems" ItemName="_RestoreGraphEntry" />
     </GetRestoreProjectReferencesTask>
-    <GetRestorePackageReferencesTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' " TargetFrameworks="$(TargetFramework)" ProjectUniqueName="$(MSBuildProjectFullPath)" PackageReferences="@(PackageReference)">
+    <GetRestorePackageReferencesTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' " PackageReferences="@(PackageReference)" ProjectUniqueName="$(MSBuildProjectFullPath)" TargetFrameworks="$(TargetFramework)">
       <Output TaskParameter="RestoreGraphItems" ItemName="_RestoreGraphEntry" />
     </GetRestorePackageReferencesTask>
-    <GetCentralPackageVersionsTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' AND '$(_CentralPackageVersionsEnabled)' == 'true' " TargetFrameworks="$(TargetFramework)" ProjectUniqueName="$(MSBuildProjectFullPath)" CentralPackageVersions="@(PackageVersion)">
+    <GetCentralPackageVersionsTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' AND '$(_CentralPackageVersionsEnabled)' == 'true' " ProjectUniqueName="$(MSBuildProjectFullPath)" CentralPackageVersions="@(PackageVersion)" TargetFrameworks="$(TargetFramework)">
       <Output TaskParameter="RestoreGraphItems" ItemName="_RestoreGraphEntry" />
     </GetCentralPackageVersionsTask>
-    <GetRestorePackageDownloadsTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' " TargetFrameworks="$(TargetFramework)" PackageDownloads="@(PackageDownload)" ProjectUniqueName="$(MSBuildProjectFullPath)">
+    <GetRestorePackageDownloadsTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' " ProjectUniqueName="$(MSBuildProjectFullPath)" PackageDownloads="@(PackageDownload)" TargetFrameworks="$(TargetFramework)">
       <Output TaskParameter="RestoreGraphItems" ItemName="_RestoreGraphEntry" />
     </GetRestorePackageDownloadsTask>
-    <GetRestoreFrameworkReferencesTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' " TargetFrameworks="$(TargetFramework)" FrameworkReferences="@(FrameworkReference)" ProjectUniqueName="$(MSBuildProjectFullPath)">
+    <GetRestoreFrameworkReferencesTask Condition=" '$(PackageReferenceCompatibleProjectStyle)' == 'true' " FrameworkReferences="@(FrameworkReference)" ProjectUniqueName="$(MSBuildProjectFullPath)" TargetFrameworks="$(TargetFramework)">
       <Output TaskParameter="RestoreGraphItems" ItemName="_RestoreGraphEntry" />
     </GetRestoreFrameworkReferencesTask>
   </Target>
@@ -339,18 +405,18 @@
     </RemoveDuplicates>
   </Target>
   <Target Name="_GenerateRestoreProjectPathItemsAllFrameworks" Condition=" '$(TargetFrameworks)' != '' " DependsOnTargets="_GetRestoreTargetFrameworksAsItems" Returns="@(_RestoreProjectPathItems)">
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " BuildInParallel="$(RestoreBuildInParallel)" Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" SkipNonexistentTargets="true" Projects="$(MSBuildProjectFullPath)" Targets="_GenerateRestoreProjectPathItemsPerFramework" SkipNonexistentProjects="true">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " SkipNonexistentProjects="true" Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreProjectPathItemsPerFramework" Projects="$(MSBuildProjectFullPath)" BuildInParallel="$(RestoreBuildInParallel)" SkipNonexistentTargets="true">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreProjectPathItems" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="$(MSBuildProjectFullPath)" Targets="_GenerateRestoreProjectPathItemsPerFramework">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="TargetFramework=%(_RestoreTargetFrameworkItems.Identity);&#xD;&#xA;                  $(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreProjectPathItemsPerFramework" Projects="$(MSBuildProjectFullPath)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreProjectPathItems" />
     </MSBuild>
   </Target>
   <Target Name="_GenerateRestoreProjectPathWalk" DependsOnTargets="_GenerateRestoreProjectPathItems" Returns="@(_RestoreProjectPathItems)">
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " BuildInParallel="$(RestoreBuildInParallel)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" SkipNonexistentTargets="true" Projects="@(_CurrentRestoreProjectPathItems)" Targets="_GenerateRestoreProjectPathWalk" SkipNonexistentProjects="true">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " SkipNonexistentProjects="true" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreProjectPathWalk" Projects="@(_CurrentRestoreProjectPathItems)" BuildInParallel="$(RestoreBuildInParallel)" SkipNonexistentTargets="true">
       <Output TaskParameter="TargetOutputs" ItemName="_GenerateRestoreProjectPathWalkOutputs" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="@(_CurrentRestoreProjectPathItems)" Targets="_GenerateRestoreProjectPathWalk">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreProjectPathWalk" Projects="@(_CurrentRestoreProjectPathItems)">
       <Output TaskParameter="TargetOutputs" ItemName="_GenerateRestoreProjectPathWalkOutputs" />
     </MSBuild>
     <RemoveDuplicates Inputs="@(_GenerateRestoreProjectPathWalkOutputs)">
@@ -358,34 +424,34 @@
     </RemoveDuplicates>
   </Target>
   <Target Name="_GetAllRestoreProjectPathItems" DependsOnTargets="_FilterRestoreGraphProjectInputItems" Returns="@(_RestoreProjectPathItems)">
-    <NuGetMessageTask Name="DeterminingProjectsToRestore" Importance="High" />
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " BuildInParallel="$(RestoreBuildInParallel)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" SkipNonexistentTargets="true" Projects="@(FilteredRestoreGraphProjectInputItems)" Targets="_GenerateRestoreProjectPathWalk" SkipNonexistentProjects="true">
+    <NuGetMessageTask Importance="High" Name="DeterminingProjectsToRestore" />
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " SkipNonexistentProjects="true" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreProjectPathWalk" Projects="@(FilteredRestoreGraphProjectInputItems)" BuildInParallel="$(RestoreBuildInParallel)" SkipNonexistentTargets="true">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreProjectPathItemsOutputs" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="@(FilteredRestoreGraphProjectInputItems)" Targets="_GenerateRestoreProjectPathWalk">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_GenerateRestoreProjectPathWalk" Projects="@(FilteredRestoreGraphProjectInputItems)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreProjectPathItemsOutputs" />
     </MSBuild>
     <RemoveDuplicates Inputs="@(_RestoreProjectPathItemsOutputs)">
       <Output TaskParameter="Filtered" ItemName="_RestoreProjectPathItemsWithoutDupes" />
     </RemoveDuplicates>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " BuildInParallel="$(RestoreBuildInParallel)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" SkipNonexistentTargets="true" Projects="@(_RestoreProjectPathItemsWithoutDupes)" Targets="_IsProjectRestoreSupported" SkipNonexistentProjects="true">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' == 'true' " SkipNonexistentProjects="true" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_IsProjectRestoreSupported" Projects="@(_RestoreProjectPathItemsWithoutDupes)" BuildInParallel="$(RestoreBuildInParallel)" SkipNonexistentTargets="true">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreProjectPathItems" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Projects="@(_RestoreProjectPathItemsWithoutDupes)" Targets="_IsProjectRestoreSupported">
+    <MSBuild Condition=" '$(RestoreUseSkipNonexistentTargets)' != 'true' " ContinueOnError="$(RestoreContinueOnError)" Properties="$(_GenerateRestoreGraphProjectEntryInputProperties)" Targets="_IsProjectRestoreSupported" Projects="@(_RestoreProjectPathItemsWithoutDupes)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreProjectPathItems" />
     </MSBuild>
   </Target>
   <Target Name="_GetRestoreSettingsOverrides" Returns="$(_RestorePackagesPathOverride);$(_RestoreRepositoryPathOverride);$(_RestoreSourcesOverride);$(_RestoreFallbackFoldersOverride)">
-    <MSBuild Condition=" '$(RestorePackagesPath)' != '' " BuildInParallel="$(RestoreBuildInParallel)" Projects="$(MSBuildThisFileFullPath)" Targets="_GetRestorePackagesPathOverride">
+    <MSBuild Condition=" '$(RestorePackagesPath)' != '' " Targets="_GetRestorePackagesPathOverride" Projects="$(MSBuildThisFileFullPath)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestorePackagesPathOverride" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreRepositoryPathOverride)' != '' " BuildInParallel="$(RestoreBuildInParallel)" Projects="$(MSBuildThisFileFullPath)" Targets="_GetRestoreRepositoryPathOverride">
+    <MSBuild Condition=" '$(RestoreRepositoryPathOverride)' != '' " Targets="_GetRestoreRepositoryPathOverride" Projects="$(MSBuildThisFileFullPath)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreRepositoryPathOverride" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreSources)' != '' " BuildInParallel="$(RestoreBuildInParallel)" Projects="$(MSBuildThisFileFullPath)" Targets="_GetRestoreSourcesOverride">
+    <MSBuild Condition=" '$(RestoreSources)' != '' " Targets="_GetRestoreSourcesOverride" Projects="$(MSBuildThisFileFullPath)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreSourcesOverride" />
     </MSBuild>
-    <MSBuild Condition=" '$(RestoreFallbackFolders)' != '' " BuildInParallel="$(RestoreBuildInParallel)" Projects="$(MSBuildThisFileFullPath)" Targets="_GetRestoreFallbackFoldersOverride">
+    <MSBuild Condition=" '$(RestoreFallbackFolders)' != '' " Targets="_GetRestoreFallbackFoldersOverride" Projects="$(MSBuildThisFileFullPath)" BuildInParallel="$(RestoreBuildInParallel)">
       <Output TaskParameter="TargetOutputs" ItemName="_RestoreFallbackFoldersOverride" />
     </MSBuild>
   </Target>
@@ -395,195 +461,291 @@
   <Target Name="_GetRestoreFallbackFoldersOverride" Returns="$(_RestoreFallbackFoldersOverride)" />
   <Target Name="_IsProjectRestoreSupported" Returns="@(_ValidProjectsForRestore)" />
   <Target Name="Build" Outputs="@(CollectedBuildOutput)">
-    <MSBuild BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+    <MSBuild SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True">
       <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="Clean">
-    <MSBuild BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference-&gt;Reverse())" Targets="Clean" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+    <MSBuild SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference-&gt;Reverse())" BuildInParallel="True" />
   </Target>
   <Target Name="Rebuild" Outputs="@(CollectedBuildOutput)">
-    <MSBuild BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+    <MSBuild SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True">
       <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="Publish">
-    <MSBuild BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+    <MSBuild SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ReferencingLibrary" Outputs="@(AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ReferencingLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ReferencingLibrary:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ReferencingLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ReferencingLibrary:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ReferencingLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_ReferencingLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ReferencingLibrary:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ReferencingLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
   <Target Name="_Root" Outputs="@(_RootBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
       <Output TaskParameter="TargetOutputs" ItemName="_RootBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="_Root:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
   <Target Name="_Root:Rebuild" Outputs="@(_RootBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
       <Output TaskParameter="TargetOutputs" ItemName="_RootBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="_Root:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\_Root.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ExternalLibrary" Outputs="@(AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ExternalLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ExternalLibrary:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ExternalLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ExternalLibrary:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ExternalLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_ExternalLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_ExternalLibrary:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_ExternalLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_InternalLibrary" Outputs="@(AppGates_Build_Versioning_Test_InternalLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_InternalLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_InternalLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_InternalLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_InternalLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_InternalLibrary:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_InternalLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_InternalLibrary:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_InternalLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_InternalLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_InternalLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_InternalLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_InternalLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_InternalLibrary:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_InternalLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveProjectLibrary" Outputs="@(AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveProjectLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveProjectLibrary:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveProjectLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveProjectLibrary:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveProjectLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_TransitiveProjectLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveProjectLibrary:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveProjectLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveProjectLibrary\AppGates.Build.Versioning.Test.TransitiveProjectLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Tasks" Outputs="@(AppGates_Build_ApiManagement_TasksBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_ApiManagement_TasksBuildOutput" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Tasks" Outputs="@(Framework_AppGates_Build_ApiManagement_TasksBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Build_ApiManagement_TasksBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Tasks:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Tasks:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Tasks:Rebuild" Outputs="@(AppGates_Build_ApiManagement_TasksBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_ApiManagement_TasksBuildOutput" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Tasks:Rebuild" Outputs="@(Framework_AppGates_Build_ApiManagement_TasksBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Build_ApiManagement_TasksBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Tasks:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Tasks:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Tasks\AppGates.Build.ApiManagement.Tasks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Targets" Outputs="@(AppGates_Build_ApiManagement_TargetsBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_ApiManagement_TargetsBuildOutput" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Targets" Outputs="@(Framework_AppGates_Build_ApiManagement_TargetsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Build_ApiManagement_TargetsBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Targets:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Targets:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Targets:Rebuild" Outputs="@(AppGates_Build_ApiManagement_TargetsBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_ApiManagement_TargetsBuildOutput" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Targets:Rebuild" Outputs="@(Framework_AppGates_Build_ApiManagement_TargetsBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Build_ApiManagement_TargetsBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Targets:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Targets:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Targets\AppGates.Build.ApiManagement.Targets.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Sdk" Outputs="@(AppGates_Build_ApiManagement_SdkBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_ApiManagement_SdkBuildOutput" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Sdk" Outputs="@(Framework_AppGates_Build_ApiManagement_SdkBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Build_ApiManagement_SdkBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Sdk:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Sdk:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Sdk:Rebuild" Outputs="@(AppGates_Build_ApiManagement_SdkBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_ApiManagement_SdkBuildOutput" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Sdk:Rebuild" Outputs="@(Framework_AppGates_Build_ApiManagement_SdkBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Build_ApiManagement_SdkBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_ApiManagement_Sdk:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Framework\AppGates_Build_ApiManagement_Sdk:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.ApiManagement.Sdk\AppGates.Build.ApiManagement.Sdk.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveLibrary" Outputs="@(AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveLibrary:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveLibrary:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_TransitiveLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_TransitiveLibrary:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_TransitiveLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.TransitiveLibrary\AppGates.Build.Versioning.Test.TransitiveLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_MultiTargetLibrary" Outputs="@(AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_MultiTargetLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_MultiTargetLibrary:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_MultiTargetLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_MultiTargetLibrary:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_MultiTargetLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_MultiTargetLibraryBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_MultiTargetLibrary:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_MultiTargetLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.MultiTargetLibrary\AppGates.Build.Versioning.Test.MultiTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_Internal_MultiTarget" Outputs="@(AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_Internal_MultiTarget" Outputs="@(Test_AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_Internal_MultiTarget:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Clean" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_Internal_MultiTarget:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_Internal_MultiTarget:Rebuild" Outputs="@(AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Rebuild">
-      <Output TaskParameter="TargetOutputs" ItemName="AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_Internal_MultiTarget:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_Internal_MultiTargetBuildOutput" />
     </MSBuild>
   </Target>
-  <Target Name="AppGates_Build_Versioning_Test_Internal_MultiTarget:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="True" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" Targets="Publish" />
+  <Target Name="Test\AppGates_Build_Versioning_Test_Internal_MultiTarget:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.Internal.MultiTarget\AppGates.Build.Versioning.Test.Internal.MultiTarget.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TransitivePack" Outputs="@(Framework_AppGates_Net_Build_TransitivePackBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_TransitivePackBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TransitivePack:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TransitivePack:Rebuild" Outputs="@(Framework_AppGates_Net_Build_TransitivePackBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_TransitivePackBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TransitivePack:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TransitivePack\AppGates.Net.Build.TransitivePack.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_LocalVersioning" Outputs="@(Framework_AppGates_Net_Build_LocalVersioningBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_LocalVersioningBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_LocalVersioning:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_LocalVersioning:Rebuild" Outputs="@(Framework_AppGates_Net_Build_LocalVersioningBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_LocalVersioningBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_LocalVersioning:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.LocalVersioning\AppGates.Net.Build.LocalVersioning.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Test\AppGates_Build_Versioning_Test_SingleTargetLibrary" Outputs="@(Test_AppGates_Build_Versioning_Test_SingleTargetLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_SingleTargetLibraryBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Test\AppGates_Build_Versioning_Test_SingleTargetLibrary:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Test\AppGates_Build_Versioning_Test_SingleTargetLibrary:Rebuild" Outputs="@(Test_AppGates_Build_Versioning_Test_SingleTargetLibraryBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Test_AppGates_Build_Versioning_Test_SingleTargetLibraryBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Test\AppGates_Build_Versioning_Test_SingleTargetLibrary:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Deterministic" Outputs="@(Framework_AppGates_Net_Build_DeterministicBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_DeterministicBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Deterministic:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Deterministic:Rebuild" Outputs="@(Framework_AppGates_Net_Build_DeterministicBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_DeterministicBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Deterministic:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Hooks" Outputs="@(Framework_AppGates_Net_Build_HooksBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_HooksBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Hooks:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Hooks:Rebuild" Outputs="@(Framework_AppGates_Net_Build_HooksBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_HooksBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_Hooks:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TargetPackage" Outputs="@(Framework_AppGates_Net_Build_TargetPackageBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_TargetPackageBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TargetPackage:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TargetPackage:Rebuild" Outputs="@(Framework_AppGates_Net_Build_TargetPackageBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)">
+      <Output TaskParameter="TargetOutputs" ItemName="Framework_AppGates_Net_Build_TargetPackageBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Framework\AppGates_Net_Build_TargetPackage:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\git\collaboration\infrastructure.versioning\src\AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj'" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" />
   </Target>
 </Project>

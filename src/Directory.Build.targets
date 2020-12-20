@@ -1,31 +1,141 @@
 ﻿<Project>
+
   
- 
+  <!--<Target Name="CleanCacheFile" Condition="'$(BuildingInsideVisualStudio)' == 'true'" BeforeTargets="BeforeRebuild;Clean;Pack">
+    <Delete  FileS="$(BaseIntermediateOutputPath)\project.nuget.cache"/>
+    <WriteLinesToFile 
+                    File="$(MSBuildProjectDirectory)\packages.lock.json"
+                     Lines=" " Overwrite="true"/>
+
+    <Exec Command="dotnet restore" WorkingDirectory="$(MSBuildProjectDirectory)"/>
+    --><!--<CallTarget Targets="Restore"/>--><!--
+
+  </Target>-->
+  <!--<Target Name="CleanLockFile" BeforeTargets="CheckForDuplicateItems">
+    <WriteLinesToFile Condition="Exists('$(BaseIntermediateOutputPath)\project.nuget.cache') == false"
+                      File="$(MSBuildProjectDirectory)\packages.lock.json"
+                       Lines=" " Overwrite="true"/>
+  </Target>-->
+  <!--<Target Name="MoveLockFile" BeforeTargets="ResolvePackageAssets">
+    --><!--<PropertyGroup>
+      <MarkPackageReferencesAsExternallyResolved>false</MarkPackageReferencesAsExternallyResolved>
+    </PropertyGroup>--><!--
+    --><!--<ItemGroup>
+      <_ContentFilesToPreprocess Include="$(MSBuildProjectDirectory)\packages.lock.json"/>
+    </ItemGroup>--><!--
+    --><!--<Move SourceFiles="$(MSBuildProjectDirectory)\packages.lock.json"
+          DestinationFolder="$(BaseIntermediateOutputPath)"/>--><!--
+
+    <Move 
+      Condition ="Exists('$(MSBuildProjectDirectory)\packages.lock.json')"
+      SourceFiles="$(MSBuildProjectDirectory)\packages.lock.json"
+          DestinationFolder="$(BaseIntermediateOutputPath)"/>
+  </Target>
+  <Target Name="RestoreLockFile" AfterTargets="RunResolvePackageDependencies">
+    <Move SourceFiles="$(BaseIntermediateOutputPath)\packages.lock.json"
+      DestinationFolder="$(MSBuildProjectDirectory)"/>
+
+  </Target>-->
   
-  <PropertyGroup>
+  <!--<PropertyGroup>
     <RebuildDependsOn>
       DetectRebuild;
       $(RebuildDependsOn);
     </RebuildDependsOn>
-  </PropertyGroup>
-  <Target Name="DetectRebuild" >
-    <!--<Message Importance="high" Text="Rebuilding..."/>-->
+  </PropertyGroup>-->
+  <!--<Target Name="DetectRebuild2" BeforeTargets="Rebuild">
     <PropertyGroup>
       <IsRebuild>true</IsRebuild>
     </PropertyGroup>
+  </Target>-->
+  
+  <!--<Target Name ="Rebuild" DependsOnTargets="Clean;Build">-->
+
+  <!--<PropertyGroup>
+    <PackageId Condition="'$(PackageId)' == ''">$(MSBuildProjectName)</PackageId>
+    <PackageIdTemp>$(PackageId)</PackageIdTemp>
+    <PackageId>$(PackageId)_tempX</PackageId>
+  </PropertyGroup>-->
+  <!--<Choose>
+    <When Condition="'$(AvoidCycleErrorOnSelfReference)' == 'true' AND '$(TargetFrameworks)' == '' AND '$(IsInnerBuild)' != 'true'">
+      <PropertyGroup>
+        <PackageId Condition="'$(PackageId)' == ''">$(MSBuildProjectName)</PackageId>
+        <PackageIdTemp>$(PackageId)_temp</PackageIdTemp>
+        --><!--<PackageId>$(PackageId)_temp</PackageId>--><!--
+      </PropertyGroup>
+    </When>
+  </Choose>-->
+  
+       <!--<Target Name="DisableResolvePackageErrorsX"
+BeforeTargets="ResolvePackageAssets">
+    <PropertyGroup >
+      <ContinueOnError Condition="'$(AvoidCycleErrorOnSelfReference2)' == 'true' ">true</ContinueOnError> 
+    </PropertyGroup>
+
+  </Target>-->
+
+  
+    
+ <!--<Target Name="RestoreResolvePackageErrorsX"
+AfterTargets="ResolvePackageAssets">
+    <PropertyGroup >
+      <ContinueOnError Condition="'$(AvoidCycleErrorOnSelfReference2)' == 'true' ">false</ContinueOnError> 
+    </PropertyGroup>
+
   </Target>
-  <Target Name="TriggerCleanOnly" AfterTargets="Clean" >
-    <!--<Message Importance="high" Text="Cleaned..."/>-->
-    <CallTarget Condition="'$(IsRebuild)' != 'true'" Targets="CleanOnly"/>
+         <Target Name="DisableResolvePackageErrorsY"
+BeforeTargets="Restore">
+    <PropertyGroup >
+      <HideWarningsAndErrors Condition="'$(AvoidCycleErrorOnSelfReference2)' == 'true' ">true</HideWarningsAndErrors> 
+    </PropertyGroup>
+
   </Target>
-  <Target Name="CleanOnly">
-    <Message Importance="high" Text="CleanOnly"/>
-    <!--<Message Importance="high" Text="IsLocalBuild: $(IsLocalBuild)"/>-->
-    <Delete Condition="'$(RestorePackagesWithLockFile)' != 'true'" Files="$(MSBuildProjectDirectory)\packages.lock.json"/>
-    <!--<CallTarget Targets="Restore"/>-->
+
+     <Target Name="RestoreResolvePackageErrorsY"
+AfterTargets="Restore">
+    <PropertyGroup >
+      <HideWarningsAndErrors Condition="'$(AvoidCycleErrorOnSelfReference2)' == 'true' ">false</HideWarningsAndErrors> 
+    </PropertyGroup>
+
+  </Target>-->
+
+  
+
+  <!--<Target Name="DisableResolvePackageErrors5"
+AfterTargets="NBGV_SetDefaults">
+    <PropertyGroup >
+      <PackageId Condition="'$(AvoidCycleErrorOnSelfReference)' == 'true'">$(PackageIdTemp)</PackageId>
+    </PropertyGroup>
+
   </Target>
   
+  <Target Name="DisableResolvePackageErrors6"
+BeforeTargets="GenerateNuspec">
+    <PropertyGroup >
+      <PackageId Condition="'$(AvoidCycleErrorOnSelfReference)' == 'true'">$(MSBuildProjectName)</PackageId>
+    </PropertyGroup>
+
+  </Target>-->
+  
+
+
+  <!--<PropertyGroup  Condition="'$(AvoidCycleErrorOnSelfReference)' == 'true'">
+    <PackageId Condition="'$(PackageId)' == ''">$(MSBuildProjectName)</PackageId>
+    <PackageIdTemp>$(PackageId)</PackageIdTemp>
+    <PackageId>$(PackageId)_temp</PackageId>
+  </PropertyGroup>-->
+  
+  <!--<Target Name="RestoreResolvePackageErrors"
+          Condition="'$(AvoidCycleErrorOnSelfReference)' == 'true'"
+          AfterTargets="ResolvePackageAssets">
+    <PropertyGroup>
+      <PackageId>$(PackageIdTemp)</PackageId>
+    </PropertyGroup>
+  </Target>-->
+
+
   <!--Begin: Avoid cycle error when package builds itself-->
+
   <Choose>
     <When Condition="$(AvoidCycleErrorOnSelfReference) == 'true'">
       <PropertyGroup>

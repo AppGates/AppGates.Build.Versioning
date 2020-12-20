@@ -33,9 +33,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AA4E5AFD-F072-49CB-9240-18B1B4FCA462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Build.Versioning.Test.SingleTargetLibrary", "AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj", "{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Build.Versioning.Test.SingleTargetLibrary", "AppGates.Build.Versioning.Test.SingleTargetLibrary\AppGates.Build.Versioning.Test.SingleTargetLibrary.csproj", "{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.Deterministic", "AppGates.Net.Build.Deterministic\AppGates.Net.Build.Deterministic.csproj", "{AA78567E-25FA-4E08-94FF-823EC4C69703}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.Hooks", "AppGates.Net.Build.Hooks\AppGates.Net.Build.Hooks.csproj", "{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.TargetPackage", "AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj", "{DFC5F3AF-800C-4759-B34B-7317032A45E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Net.Build.NoBinaryPackage", "AppGates.Net.Build.NoBinaryPackage\AppGates.Net.Build.NoBinaryPackage.csproj", "{FB89C97E-10F4-4E4D-AE83-70577ED90332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +109,18 @@ Global
 		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA78567E-25FA-4E08-94FF-823EC4C69703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC5F3AF-800C-4759-B34B-7317032A45E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC5F3AF-800C-4759-B34B-7317032A45E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC5F3AF-800C-4759-B34B-7317032A45E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC5F3AF-800C-4759-B34B-7317032A45E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +140,9 @@ Global
 		{BCDCF0CA-6DBA-4703-8438-76E03A693711} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 		{DDEF6F32-75A0-49B1-BDBB-C75FC1BE0439} = {AA4E5AFD-F072-49CB-9240-18B1B4FCA462}
 		{AA78567E-25FA-4E08-94FF-823EC4C69703} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
+		{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
+		{DFC5F3AF-800C-4759-B34B-7317032A45E7} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
+		{FB89C97E-10F4-4E4D-AE83-70577ED90332} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A1A1C38-2115-4B0C-AC66-0623B2BCB102}
