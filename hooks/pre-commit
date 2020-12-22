@@ -1,7 +1,7 @@
 #!/bin/sh
 
-"C:\Program Files\Git\bin\bash.exe" $0/../pre-commit.sh
-# "C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
+ "C:\Program Files\Git\bin\bash.exe" -c $0/../pre-commit.sh --window full --needs-console
+ "C:\Program Files\Git\git-bash.exe"  -c $0/../pre-commit.sh --needs-console
 
 status=$?
 exit $status
