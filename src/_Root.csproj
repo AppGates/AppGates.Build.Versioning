@@ -7,10 +7,6 @@
     <GenerateDependencyFile>False</GenerateDependencyFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Class1.cs" />
-  </ItemGroup>
-
 
 
   <!-- BEGIN disable default compile and copy binary behaviour -->

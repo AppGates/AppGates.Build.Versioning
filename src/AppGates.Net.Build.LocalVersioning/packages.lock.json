@@ -17,8 +17,8 @@
       "AppGates.Net.Build.LocalVersioning": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.28.100011",
-        "contentHash": "ZkhbFDr3ekMju6pzZFbhpgKV5H6W3yT8otm6rzPUZdx3fOv48663822OP/0MHwk/OYkweIt0oEeggY/+72Jlmg=="
+        "resolved": "1.1.30.100012",
+        "contentHash": "L5HLoDHLNvqCG6ZUpwCjEtLB4HlkzFgIeD9iO0KaB70HFpzb5gTeNgoLZua4hlhKbx6uqv0Whxi0l5dfN/pEJg=="
       },
       "AppGates.Net.Build.NoBinaryPackage": {
         "type": "Direct",
