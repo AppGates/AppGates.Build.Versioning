@@ -1,7 +1,11 @@
 #!/bin/sh
 
-"C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
-"C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
+"C:\Program Files\Git\bin\bash.exe" $0/../pre-commit.sh
+# "C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
+
+status=$?
+exit $status
+
 
 # list all build ins 
 # compgen -b
@@ -11,4 +15,3 @@
 
 # powershell $0/../pre-commit.ps1 &
 
-exit 1
