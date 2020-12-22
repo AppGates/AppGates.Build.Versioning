@@ -8,14 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="hooks\pre-commit">
-      <PackagePath>/</PackagePath>
-      <Pack>true</Pack>
-    </None>
-    <None Include="hooks\pre-commit2.ps1">
-      <PackagePath>/</PackagePath>
-      <Pack>true</Pack>
-    </None>
     <None Include="hooks\pre-commit.ps1">
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
@@ -24,6 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="AppGates.Net.Build.GitHooks" PrivateAssets="all" Version="*" />
+    <PackageReference Include="AppGates.Net.Build.GitHooks.Powershell" PrivateAssets ="all" Version="*"/>
   </ItemGroup>
 
 

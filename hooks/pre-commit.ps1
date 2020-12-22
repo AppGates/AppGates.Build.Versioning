@@ -1,26 +1,25 @@
-$pinfo = New-Object System.Diagnostics.ProcessStartInfo
-$pinfo.FileName = "pwsh.exe"
-$pinfo.RedirectStandardError = $false
-$pinfo.RedirectStandardOutput = $false
-$pinfo.UseShellExecute = $true
-$pinfo.Arguments = "$PSScriptRoot\pre-commit2.ps1"
-$p = New-Object System.Diagnostics.Process
-$p.StartInfo = $pinfo
-$started = $p.Start()
-if($started -eq $false){
-		Write-Host 'Pre Commit failed. Inner process start failed.' -ForegroundColor Red
-}
-#Do Other Stuff Here....
-$p.WaitForExit()
-$exitCode = $p.ExitCode
+#!/bin/sh
 
-If($exitCode -eq 0)
-{
-	Write-Host 'Pre Commit successful!' -ForegroundColor Green
-} 
-else 
-{
-	Write-Host 'Pre Commit failed.' -ForegroundColor Red
-}
+cd src
+echo "$PWD"
+$solution = Resolve-Path  "$PWD\*.sln" | Select -ExpandProperty Path
 
-exit $exitCode
+echo $solution
+dotnet test $solution
+echo $LASTEXITCODE 
+#echo "Hello 1 from powershell commit"
+#sleep 1 
+#echo "Hello 2 from pre commit"
+#sleep 1 
+#echo "Hello 3 from pre commit"
+
+if ($LASTEXITCODE -eq 0)
+{
+	exit 0
+}
+else
+{
+	Write-Host -NoNewLine 'Press any key to continue...';
+	$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+	exit  1
+}
