@@ -8,4 +8,5 @@ Write-Host 'Der Exit Code ist wie erwartet 0!' -ForegroundColor Green
 
 Write-Host 'Der Exit Code ist NICHT 0!' -ForegroundColor Magenta
 }
-	exit $LastExitcode
+
+exit 1
