@@ -7,12 +7,12 @@
   </PropertyGroup>
   
   <PropertyGroup>
-    <RedirectGitHookPath>$(MSBuildThisFileDirectory)\hooks</RedirectGitHookPath>
+    <RedirectGitHookPath Condition="'$(RedirectGitHookPath)' == ''">$(MSBuildThisFileDirectory)\hooks</RedirectGitHookPath>
   </PropertyGroup>
   
   <Target Name ="DeployGitHooks" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
-      <GitConfigHookPathCommand>git config core.hooksPath $(MSBuildThisFileDirectory.Replace('\','/'))/hooks</GitConfigHookPathCommand>
+      <GitConfigHookPathCommand>git config core.hooksPath $(RedirectGitHookPath.Replace('\','/'))</GitConfigHookPathCommand>
     </PropertyGroup>
     <Message Importance="high" Text="Exec: $(GitConfigHookPathCommand)"/>
     <Exec Command="$(GitConfigHookPathCommand)"/>

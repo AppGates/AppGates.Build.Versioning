@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
+  <PropertyGroup>
+    <RedirectGitHookPath>$(MSBuildThisFileDirectory)\hooks</RedirectGitHookPath>
+  </PropertyGroup>
+  <Target Name ="Tralala" BeforeTargets="BeforeBuild">
+    <Message Importance="high" Text="Talrall"></Message>
+  </Target>
 
   <Choose>
     <When Condition="'$(MSBuildProjectName)' != '_Root'">

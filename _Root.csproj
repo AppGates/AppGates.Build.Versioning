@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AppGates.Net.Build.GitHooks" 
-                      PrivateAssets="all" Version="*"/>
+    <None Include="hooks\pre-commit">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AppGates.Net.Build.GitHooks" PrivateAssets="all" Version="*" />
   </ItemGroup>
 
 
