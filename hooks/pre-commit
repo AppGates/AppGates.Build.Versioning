@@ -1,10 +1,8 @@
 #!/bin/sh
 
- "C:\Program Files\Git\bin\bash.exe" -c $0/../pre-commit.sh --window full --needs-console
- "C:\Program Files\Git\git-bash.exe"  -c $0/../pre-commit.sh --needs-console
+ "C:\Program Files\Git\bin\bash.exe" -i -c $0/../pre-commit.sh --window full --needs-console
+# "C:\Program Files\Git\git-bash.exe"  -c $0/../pre-commit.sh --needs-console
 
-status=$?
-exit $status
 
 
 # list all build ins 
