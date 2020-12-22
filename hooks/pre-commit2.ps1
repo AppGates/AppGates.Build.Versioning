@@ -13,7 +13,7 @@ echo $LASTEXITCODE
 #sleep 1 
 #echo "Hello 3 from pre commit"
 
--if ($LASTEXITCODE -eq 0)
+if ($LASTEXITCODE -eq 0)
 {
 	exit 0
 }
