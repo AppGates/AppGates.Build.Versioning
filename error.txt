@@ -1,0 +1,1 @@
+C:/git/collaboration/infrastructure.versioning//hooks/pre-commit/../pre-commit.ps1: line 6: sleep: command not found
