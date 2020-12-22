@@ -6,7 +6,7 @@ then
     dotnet tool update --global PowerShell
 fi
 
-"C:\Users\tftom\.dotnet\tools\pwsh.exe" -c Start-Process "C:\Users\tftom\.dotnet\tools\pwsh.exe" $0/../pre-commit.ps1 -PassThru -Wait
+"C:\Users\tftom\.dotnet\tools\pwsh.exe" -c Start-Process "C:\Users\tftom\.dotnet\tools\pwsh.exe" $0/../pre-commit.ps1 -PassThru -Wait; exit $LastExitcode;
 # "C:\Program Files\Git\bin\bash.exe" -i -c $0/../pre-commit.sh --window full --needs-console
 # "C:\Program Files\Git\git-bash.exe"  -c $0/../pre-commit.sh --needs-console
 
