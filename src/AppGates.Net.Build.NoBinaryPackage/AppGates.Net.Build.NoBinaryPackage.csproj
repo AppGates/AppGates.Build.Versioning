@@ -5,5 +5,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-   
+  <Target Name="DeployInfo" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <RelativeProjectPath>$([MSBuild]::MakeRelative( '$(MSBuildProjectFullPath)','$(GitRepositoryRootPath)' ))</RelativeProjectPath>
+      <RelativeProjectDirInGitFolder>$(GitDirectoryPath)\csproj\$(RelativeProjectDir)</RelativeProjectDirInGitFolder>
+    </PropertyGroup>
+    <Message Importance="high" Text="GitRepositoryRootPath: $(GitRepositoryRootPath)"></Message>
+    <Message Importance="high" Text="MSBuildProjectFullPath: $(MSBuildProjectFullPath)"></Message>
+    <Message Importance="high" Text="RelativeProjectPath: $(RelativeProjectPath)"></Message>
+    <!--<WriteLinesToFile File="$(RelativeProjectDirInGitFolder)\file"/>-->
+  </Target>
+
 </Project>
