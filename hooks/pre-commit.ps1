@@ -1,9 +1,11 @@
-#!/bin/sh
+& 'pre-commit2.ps1'
 
-echo "Hello 1 from powershell commit"
-sleep 1 
-echo "Hello 2 from pre commit"
-sleep 1 
-echo "Hello 3 from pre commit"
+If($LastExitcode -eq 0){
 
-exit  1
+Write-Host 'Der Exit Code ist wie erwartet 0!' -ForegroundColor Green
+
+} else {
+
+Write-Host 'Der Exit Code ist NICHT 0!' -ForegroundColor Magenta
+}
+	exit $LastExitcode
