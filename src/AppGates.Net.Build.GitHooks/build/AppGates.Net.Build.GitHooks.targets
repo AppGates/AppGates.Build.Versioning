@@ -1,0 +1,22 @@
+﻿<Project>
+  <PropertyGroup>
+    <GitRepositoryRootPath>$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), '.git\HEAD'))</GitRepositoryRootPath>
+    <GitDirectoryPath Condition="'$(GitRepositoryRootPath)' != ''">$(GitRepositoryRootPath)\.git</GitDirectoryPath>
+    <GitHooksDirectoryPath Condition="'$(GitDirectoryPath)' != ''">$(GitDirectoryPath)\hooks</GitHooksDirectoryPath>
+
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <RedirectGitHookPath>$(MSBuildThisFileDirectory)\hooks</RedirectGitHookPath>
+  </PropertyGroup>
+  
+  <Target Name ="DeployGitHooks" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <GitConfigHookPathCommand>git config core.hooksPath $(MSBuildThisFileDirectory.Replace('\','/'))/hooks</GitConfigHookPathCommand>
+    </PropertyGroup>
+    <Message Importance="high" Text="Exec: $(GitConfigHookPathCommand)"/>
+    <Exec Command="$(GitConfigHookPathCommand)"/>
+  </Target>
+  
+  <Import  Project="targets\DeployGitHook.targets" />
+</Project>

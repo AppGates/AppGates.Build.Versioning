@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Hello 2 from pre commit"
+exit 0

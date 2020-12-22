@@ -5,10 +5,10 @@
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.30.1608372661",
-        "contentHash": "8zioPYMtzq8CARoYnD888Xmvkgji6HA3rZd4kfZPvf6GMxdNWG2oOYAVUScxYQfzn8d0NDcwUeEztgdX/51gIA==",
+        "resolved": "1.1.33.1608480196",
+        "contentHash": "OAp3GyQfzRvqFyEM/HQo+NHddPVtFAEKTMfxzwZpfRiytw2lkPlZd7c+2LGIuKE6pvYfIZ1YjPIFKmQR6Fznbg==",
         "dependencies": {
-          "AppGates.Build.Versioning.Test.TransitiveLibrary": "1.1.30.1608372653"
+          "AppGates.Build.Versioning.Test.TransitiveLibrary": "1.1.33.1608480194"
         }
       },
       "AppGates.Net.Build.Deterministic": {
@@ -61,8 +61,8 @@
       },
       "AppGates.Build.Versioning.Test.TransitiveLibrary": {
         "type": "Transitive",
-        "resolved": "1.1.30.1608372653",
-        "contentHash": "XzjLyl5f/Gpy0C/8V6JqNKd8RWpGnXg+AYRnUMpY4ejvCaMAoObUbHg6H/CDEXyjYpssDC2gXZ7nbUptbLWS0w=="
+        "resolved": "1.1.33.1608480194",
+        "contentHash": "R62nEi1EXTsjf/hO85TqBGHC/pTj1YlOrRLZEIZx6E9ZY6phQU9SWC+OOARy23BuoCAC5C3YUv8QhSia3hjVNw=="
       },
       "appgates.build.versioning.test.internal.multitarget": {
         "type": "Project",
@@ -85,10 +85,10 @@
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.30.1608372661",
-        "contentHash": "8zioPYMtzq8CARoYnD888Xmvkgji6HA3rZd4kfZPvf6GMxdNWG2oOYAVUScxYQfzn8d0NDcwUeEztgdX/51gIA==",
+        "resolved": "1.1.33.1608480196",
+        "contentHash": "OAp3GyQfzRvqFyEM/HQo+NHddPVtFAEKTMfxzwZpfRiytw2lkPlZd7c+2LGIuKE6pvYfIZ1YjPIFKmQR6Fznbg==",
         "dependencies": {
-          "AppGates.Build.Versioning.Test.TransitiveLibrary": "1.1.30.1608372653"
+          "AppGates.Build.Versioning.Test.TransitiveLibrary": "1.1.33.1608480194"
         }
       },
       "AppGates.Net.Build.Deterministic": {
@@ -141,8 +141,8 @@
       },
       "AppGates.Build.Versioning.Test.TransitiveLibrary": {
         "type": "Transitive",
-        "resolved": "1.1.30.1608372653",
-        "contentHash": "XzjLyl5f/Gpy0C/8V6JqNKd8RWpGnXg+AYRnUMpY4ejvCaMAoObUbHg6H/CDEXyjYpssDC2gXZ7nbUptbLWS0w=="
+        "resolved": "1.1.33.1608480194",
+        "contentHash": "R62nEi1EXTsjf/hO85TqBGHC/pTj1YlOrRLZEIZx6E9ZY6phQU9SWC+OOARy23BuoCAC5C3YUv8QhSia3hjVNw=="
       },
       "appgates.build.versioning.test.internal.multitarget": {
         "type": "Project",

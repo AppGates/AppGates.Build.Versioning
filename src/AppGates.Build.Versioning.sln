@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30608.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Build.Versioning.Test.ReferencingLibrary", "AppGates.Build.Versioning.Test.ReferencingLibrary\AppGates.Build.Versioning.Test.ReferencingLibrary.csproj", "{87522102-D3D8-4B21-A69F-3EF4AD0048DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Root", "_Root.csproj", "{169CB458-F91B-4AFF-8F91-3EA775F31E27}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Build.Versioning.Test.ExternalLibrary", "AppGates.Build.Versioning.Test.ExternalLibrary\AppGates.Build.Versioning.Test.ExternalLibrary.csproj", "{A9A972B7-2433-4E24-8070-4F4D7A75A2B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Build.Versioning.Test.InternalLibrary", "AppGates.Build.Versioning.Test.InternalLibrary\AppGates.Build.Versioning.Test.InternalLibrary.csproj", "{BA9BE4C8-689E-41E4-9B3C-1D1E0C50F275}"
@@ -41,7 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.Hooks", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.TargetPackage", "AppGates.Net.Build.TargetPackage\AppGates.Net.Build.TargetPackage.csproj", "{DFC5F3AF-800C-4759-B34B-7317032A45E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Net.Build.NoBinaryPackage", "AppGates.Net.Build.NoBinaryPackage\AppGates.Net.Build.NoBinaryPackage.csproj", "{FB89C97E-10F4-4E4D-AE83-70577ED90332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.NoBinaryPackage", "AppGates.Net.Build.NoBinaryPackage\AppGates.Net.Build.NoBinaryPackage.csproj", "{FB89C97E-10F4-4E4D-AE83-70577ED90332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Net.Build.GitHooks", "AppGates.Net.Build.GitHooks\AppGates.Net.Build.GitHooks.csproj", "{933731BA-27A9-4508-98E2-C76BB66577D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Root", "..\_Root.csproj", "{B772A285-AC10-4204-8585-144588072E32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{31C4B62E-6445-48D8-B748-FA885B432D81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +57,6 @@ Global
 		{87522102-D3D8-4B21-A69F-3EF4AD0048DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87522102-D3D8-4B21-A69F-3EF4AD0048DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87522102-D3D8-4B21-A69F-3EF4AD0048DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{169CB458-F91B-4AFF-8F91-3EA775F31E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{169CB458-F91B-4AFF-8F91-3EA775F31E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{169CB458-F91B-4AFF-8F91-3EA775F31E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{169CB458-F91B-4AFF-8F91-3EA775F31E27}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9A972B7-2433-4E24-8070-4F4D7A75A2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9A972B7-2433-4E24-8070-4F4D7A75A2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9A972B7-2433-4E24-8070-4F4D7A75A2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -121,6 +121,14 @@ Global
 		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB89C97E-10F4-4E4D-AE83-70577ED90332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933731BA-27A9-4508-98E2-C76BB66577D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933731BA-27A9-4508-98E2-C76BB66577D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933731BA-27A9-4508-98E2-C76BB66577D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933731BA-27A9-4508-98E2-C76BB66577D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B772A285-AC10-4204-8585-144588072E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B772A285-AC10-4204-8585-144588072E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B772A285-AC10-4204-8585-144588072E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B772A285-AC10-4204-8585-144588072E32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +151,8 @@ Global
 		{AEBE05D8-D6D0-4F94-A42F-4C8B0F47D1AC} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 		{DFC5F3AF-800C-4759-B34B-7317032A45E7} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 		{FB89C97E-10F4-4E4D-AE83-70577ED90332} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
+		{933731BA-27A9-4508-98E2-C76BB66577D5} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
+		{B772A285-AC10-4204-8585-144588072E32} = {31C4B62E-6445-48D8-B748-FA885B432D81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A1A1C38-2115-4B0C-AC66-0623B2BCB102}
