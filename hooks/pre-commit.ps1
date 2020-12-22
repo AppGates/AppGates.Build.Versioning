@@ -1,31 +1,26 @@
-
-echo $PSScriptRoot
-
 $pinfo = New-Object System.Diagnostics.ProcessStartInfo
 $pinfo.FileName = "pwsh.exe"
 $pinfo.RedirectStandardError = $false
 $pinfo.RedirectStandardOutput = $false
-$pinfo.UseShellExecute = $false
+$pinfo.UseShellExecute = $true
 $pinfo.Arguments = "$PSScriptRoot\pre-commit2.ps1"
 $p = New-Object System.Diagnostics.Process
 $p.StartInfo = $pinfo
-$p.Start() | Out-Null
+$started = $p.Start()
+if($started -eq $false){
+		Write-Host 'Pre Commit failed. Inner process start failed.' -ForegroundColor Red
+}
 #Do Other Stuff Here....
 $p.WaitForExit()
 $exitCode = $p.ExitCode
 
-
-
-
-
-
-If($exitCode -eq 0){
-
-Write-Host 'Der Exit Code ist wie erwartet 0!' -ForegroundColor Green
-
-} else {
-
-Write-Host 'Der Exit Code ist NICHT 0!' -ForegroundColor Magenta
+If($exitCode -eq 0)
+{
+	Write-Host 'Pre Commit successful!' -ForegroundColor Green
+} 
+else 
+{
+	Write-Host 'Pre Commit failed.' -ForegroundColor Red
 }
 
 exit $exitCode

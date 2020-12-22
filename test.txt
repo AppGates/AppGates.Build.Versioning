@@ -1,3 +1,0 @@
-Hello 1 from pre commit
-Hello 2 from pre commit
-Hello 3 from pre commit
