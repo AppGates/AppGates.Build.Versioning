@@ -1,6 +1,4 @@
 #!/bin/sh
-echo $SHELL
-echo $ProgramFiles
 
 exec "C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
 
@@ -8,7 +6,6 @@ exec "C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
 # list all build ins 
 # compgen -b
 
-cygwin-console-helper.exe
 
 
 # get all available commands

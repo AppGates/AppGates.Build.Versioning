@@ -12,6 +12,10 @@
       <PackagePath>/</PackagePath>
       <Pack>true</Pack>
     </None>
+    <None Include="hooks\pre-commit.sh">
+      <PackagePath>/</PackagePath>
+      <Pack>true</Pack>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
