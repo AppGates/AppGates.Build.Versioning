@@ -1,7 +1,7 @@
 #!/bin/sh
 
-exec "C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
-exec "C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
+"C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
+"C:\Program Files\Git\git-bash.exe" $0/../pre-commit.sh
 
 # list all build ins 
 # compgen -b
