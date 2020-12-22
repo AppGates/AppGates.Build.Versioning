@@ -11,14 +11,20 @@
       "AppGates.Net.Build.Hooks": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.30.1608474821",
-        "contentHash": "XB9bznjJz/24pOuZlHvqpyIlXFgQD4i8xHKntBhPDYXKfv9HHVGY3oV+boNODDMGWnq0tcYijepp+2F64Sdhzg=="
+        "resolved": "1.1.30.1608489540",
+        "contentHash": "QbHSdKxCPTb9S+IksRgRY7VRLnduHP+uVfY9TliFP3PuEIvFr+kIItOnmGSJTGsNaByD/WWMlVMLdT08I2IhSQ=="
       },
       "AppGates.Net.Build.LocalVersioning": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.28.100011",
-        "contentHash": "ZkhbFDr3ekMju6pzZFbhpgKV5H6W3yT8otm6rzPUZdx3fOv48663822OP/0MHwk/OYkweIt0oEeggY/+72Jlmg=="
+        "resolved": "1.1.30.1608501058",
+        "contentHash": "0jG7JTSm2+qXw7qCoBprSeDKxMAWN8QF3AHCa8MjGC9s8EnPuIKES8BmCn38qjC1TwJ/dfXJU4hliiZ3wtVOTQ=="
+      },
+      "AppGates.Net.Build.NoBinaryPackage": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.1.30.1608489466",
+        "contentHash": "Q70MO/+qjdqJEt6WH1H05ewt6gaUJT/9zywiIHzeYDlrA0uhTTycAgvb5fkau1OXts0DsZBtz7c3iHpBUR1iFQ=="
       },
       "AppGates.Net.Build.TargetPackage": {
         "type": "Direct",
