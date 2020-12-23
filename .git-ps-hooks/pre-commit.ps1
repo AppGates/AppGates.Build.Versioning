@@ -1,2 +1,2 @@
-echo "Hello from root"
+echo "Hello from root $MyInvocation.MyCommand.Name"
 exit 0

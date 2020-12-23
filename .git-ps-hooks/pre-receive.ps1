@@ -1,2 +1,2 @@
-echo "Hello from root pre-receive"
+echo "Hello from root $MyInvocation.MyCommand.Name"
 exit 1
