@@ -1,4 +1,11 @@
+param (
+    [Parameter(Mandatory=$true)][string]$hookName,
+    #[Parameter(Mandatory=$true)][string]$username,
+    #[string]$password = $( Read-Host "Input password, please" )
+ )
+
 $gitRepositoryRoot = $PWD
+echo "hookName: $hookName"
 echo "gitRepositoryRoot: $gitRepositoryRoot"
 
 
@@ -18,7 +25,7 @@ foreach ($directory in $directories) {
     }
     if ($included) {
 
-        $preCommitFile = Join-Path -Path $directory.FullName -ChildPath "pre-commit.ps1"
+        $preCommitFile = Join-Path -Path $directory.FullName -ChildPath "$hookName.ps1"
         if(Test-Path -path $preCommitFile -PathType Leaf){
             cd $directory.parent.FullName
             iex $preCommitFile

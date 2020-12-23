@@ -2,7 +2,7 @@
 
 echo "$PWD"
 echo "$PSScriptRoot"
-echo "$GitRepositoryRoot"
+echo "$gitRepositoryRoot"
 #cd $PSScriptRoot
 #cd ..
 $solution = Resolve-Path  "$PWD\*.sln" | Select -ExpandProperty Path
