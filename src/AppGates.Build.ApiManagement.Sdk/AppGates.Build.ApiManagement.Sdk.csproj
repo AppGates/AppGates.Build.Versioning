@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <AvoidCycleErrorOnSelfReference>true</AvoidCycleErrorOnSelfReference>
@@ -7,10 +7,21 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <IsDevelopmentDependency>true</IsDevelopmentDependency>
   </PropertyGroup>
-
+  
   <ItemGroup>
-    <None Update="Sdk/**" PackagePath="/" Pack="true"/>
+    <Range Include="1;2;">
+      <Number>%(Identity)</Number>
+    </Range>
+    <Content Include="@(Range->'%(Number)\..\Sdk\targets\Template.props')" 
+             Pack="false" CopyToOutputDirectory="PreserveNewest"
+             Link="Sdk\targets\Resolved_%(Number).props" Visible="true" />
+    <None Include="@(Range->'$(OutputPath)Sdk\targets\Resolved_%(Number).props')" 
+          Pack="true" PackagePath="/Sdk/targets/" Visible="false" />
   </ItemGroup>
 
+  <Target Name="Loglogx" AfterTargets="AfterBuild">
+    <Message Importance="high" Text="Range: %(Range.Identity)" />
+  </Target>
+  
 
 </Project>

@@ -1,5 +1,9 @@
 ﻿<Project>
- 
+
+  <PropertyGroup>
+    <SdkNumber>$(MSBuildThisFileName)</SdkNumber>
+    <SdkName>$(Sdks.Split(';').getValue('$(SdkNumber)'))</SdkName>
+  </PropertyGroup>
   <Choose>
     <When Condition="'$(UseLatestSdk)' == 'true'">
       <ItemGroup>

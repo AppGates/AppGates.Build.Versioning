@@ -1,5 +1,9 @@
 ﻿<Project>
 
+  <PropertyGroup>
+    <DirectoryBuildTargets>true</DirectoryBuildTargets>
+
+  </PropertyGroup>
   <!--<Target Name="TestLog" AfterTargets="AfterBuild">
     <PropertyGroup>
       <GitRepositoryRootPath>$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), '.git\HEAD'))</GitRepositoryRootPath>
@@ -34,6 +38,6 @@
   </Target>
   <!--End: Avoid cycle error when package builds itself-->
   
-  <!--<Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.targets"/>-->
+  <Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.1.64.1608744270" Project="Sdk.targets"/>
 
 </Project>

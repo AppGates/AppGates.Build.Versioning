@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project>
+<Project  >
+
+  <PropertyGroup>
+    <DirectoryBuildProps>true</DirectoryBuildProps>
+    <UseVersioningSdk>true</UseVersioningSdk>
+    <UseLatestSdk>true</UseLatestSdk>
+    <!--<UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>-->
+
+  </PropertyGroup>
+  <Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.1.64.1608744270" Project="Sdk.props"/>
 
   <Choose>
     <When Condition="'$(MSBuildProjectName)' != '_Root'">
@@ -17,8 +26,6 @@
         <!--<RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>-->
         <!--<RebuildOnVisualStudioPack>true</RebuildOnVisualStudioPack>-->
 
-        <UseVersioningSdk>true</UseVersioningSdk>
-        <UseVersioningSdk  Condition="'$(MSBuildProjectName)' == 'AppGates.Build.ApiManagement.Sdk'" >false</UseVersioningSdk>
 
 
         <TestProperty  >$(CI.Equals('true'))</TestProperty>
@@ -90,8 +97,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>-->
 
-  
-  <!--<Import Condition="$(UseVersioningSdk)" Sdk="AppGates.Build.ApiManagement.Sdk" Version="1.0.0" Project="Sdk.props"/>-->
+  <!--<Sdk Name="AppGates.Build.ApiManagement.Sdk" Version="1.1.64.1608740523"/>-->
+
 
 
   <!--<ItemGroup>

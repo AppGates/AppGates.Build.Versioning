@@ -51,15 +51,9 @@
         if ($included) {
 
             $hookScript = Join-Path -Path $directory.FullName -ChildPath "$hookName.ps1"
-            $genericScript = Join-Path -Path $directory.FullName -ChildPath "git-hook.ps1"
-
-            if(Test-Path -path $hookScript -PathType Leaf)
-            {
+   
+            if(Test-Path -path $hookScript -PathType Leaf){
                 $hookScripts.Add($hookScript)
-            }
-            else if(est-Path -path $genericScript -PathType Leaf)
-            {
-                $hookScripts.Add($genericScript)
             }
         }
     }

@@ -2,6 +2,12 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "AppGates.Build.ApiManagement.Sdk": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.1.64.1608745465",
+        "contentHash": "Kp7MN5D5YT0k3um1aA3JIF6w38OTIvvGX/HyHniEwOttjDFXyXYwBlNQtZSOsubbRilaZFd/FVqCjIwOXyaMKQ=="
+      },
       "AppGates.Net.Build.Deterministic": {
         "type": "Direct",
         "requested": "[*, )",

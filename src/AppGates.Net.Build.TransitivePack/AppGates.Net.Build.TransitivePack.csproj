@@ -11,7 +11,7 @@
  
   <Target Name="RemoveCompile" BeforeTargets="CoreCompile">
     <ItemGroup>
-      <Compile Remove="@(Compile)"/>
+      <Compile Remove="@(Compile)" />
     </ItemGroup>
   </Target>
   <!--<ItemGroup>

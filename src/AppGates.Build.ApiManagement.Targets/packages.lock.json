@@ -2,6 +2,12 @@
   "version": 1,
   "dependencies": {
     ".NETStandard,Version=v2.0": {
+      "AppGates.Build.ApiManagement.Sdk": {
+        "type": "Direct",
+        "requested": "[*, )",
+        "resolved": "1.1.64.1608745465",
+        "contentHash": "Kp7MN5D5YT0k3um1aA3JIF6w38OTIvvGX/HyHniEwOttjDFXyXYwBlNQtZSOsubbRilaZFd/FVqCjIwOXyaMKQ=="
+      },
       "AppGates.Net.Build.Deterministic": {
         "type": "Direct",
         "requested": "[*, )",
@@ -17,8 +23,8 @@
       "AppGates.Net.Build.LocalVersioning": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.28.100011",
-        "contentHash": "ZkhbFDr3ekMju6pzZFbhpgKV5H6W3yT8otm6rzPUZdx3fOv48663822OP/0MHwk/OYkweIt0oEeggY/+72Jlmg=="
+        "resolved": "1.1.30.1608501058",
+        "contentHash": "0jG7JTSm2+qXw7qCoBprSeDKxMAWN8QF3AHCa8MjGC9s8EnPuIKES8BmCn38qjC1TwJ/dfXJU4hliiZ3wtVOTQ=="
       },
       "AppGates.Net.Build.NoBinaryPackage": {
         "type": "Direct",
