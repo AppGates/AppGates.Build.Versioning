@@ -13,13 +13,5 @@ echo $LASTEXITCODE
 #sleep 1 
 #echo "Hello 3 from pre commit"
 
-if ($LASTEXITCODE -eq 0)
-{
-	exit 0
-}
-else
-{
-	Write-Host -NoNewLine 'Press any key to continue...';
-	$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
-	exit  1
-}
+exit 1
+exit $LASTEXITCODE 

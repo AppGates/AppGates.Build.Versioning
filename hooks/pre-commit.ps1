@@ -2,26 +2,34 @@
 $rootFolderPath = $PWD
 echo "rootFolderPath $rootFolderPath"
 
-$excludeDirectories = ("bin", "obj", "build");
 
 [string[]]$Paths = @($rootFolderPath)
-[string[]]$Excludes = @('*\bin\*', '*\obj\*', '*\build\*')
+[string[]]$Excludes = @('bin', 'obj', 'build')
+$folderName = @('git-ps-hooks')
 
-$files = Get-ChildItem $Paths -Directory -Recurse -Exclude $Excludes | %{ 
-    $allowed = $true
+$directories = Get-ChildItem $Paths -Directory -Recurse -Filter $folderNam
+
+foreach ($directory in $directories) {
+    $included = $true
     foreach ($exclude in $Excludes) { 
-        if ((Split-Path $_.FullName -Parent) -ilike $exclude) { 
-            $allowed = $false
+        if ($directory.FullName -ilike "*\$exclude\*" -or $directory.Name -eq $exclude) { 
+            $included = $false
             break
         }
     }
-    if ($allowed) {
-        $_
+    if ($included) {
+
+        $preCommitFile = Join-Path -Path $directory.FullName -ChildPath "pre-commit.ps1"
+        if(Test-Path -path $preCommitFile -PathType Leaf){
+            iex $preCommitFile
+            if ($LASTEXITCODE -ne 0)
+            {
+	            Write-Host -NoNewLine 'Press any key to continue...';
+	            $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+	            exit  $LASTEXITCODE
+            }
+        }
     }
 }
-foreach ($file in $files) {
- echo    $file
 
-}
-
-exit 1
+#exit 1

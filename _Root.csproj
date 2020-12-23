@@ -9,7 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="AppGates.Net.Build.GitHooks" PrivateAssets="all" Version="*" />
-    <PackageReference Include="AppGates.Net.Build.GitHooks.Powershell" PrivateAssets ="all" Version="*"/>
+    <PackageReference Include="AppGates.Net.Build.GitHooks.Powershell" PrivateAssets="all" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="git-ps-hooks\" />
   </ItemGroup>
 
 
