@@ -40,7 +40,7 @@
         iex $hookScript
         if ((Test-Path variable:LASTEXITCODE) -and $LASTEXITCODE -ne 0)
         {
-	        Write-Host "The pre-commit script $hookScript failed with error code $LASTEXITCODE." -ForegroundColor Red;
+	        Write-Host "The $hookName script $hookScript failed with error code $LASTEXITCODE." -ForegroundColor Red;
 
             if (!$psISE)
             {

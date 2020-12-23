@@ -94,11 +94,11 @@
     
         if($exitCode -eq 0)
         {
-	        Write-Host 'Pre Commit successful!' -ForegroundColor Green
+	        Write-Host "$hookName successful!" -ForegroundColor Green
         } 
         else 
         {
-	        Write-Host 'Pre Commit failed.' -ForegroundColor Red
+	        Write-Host "$hookName Commit failed." -ForegroundColor Red
             exit $exitCode
         }
     }
