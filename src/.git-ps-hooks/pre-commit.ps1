@@ -1,7 +1,10 @@
 #!/bin/sh
 
-cd src
 echo "$PWD"
+echo "$PSScriptRoot"
+echo "$GitRepositoryRoot"
+#cd $PSScriptRoot
+#cd ..
 $solution = Resolve-Path  "$PWD\*.sln" | Select -ExpandProperty Path
 
 echo $solution
@@ -13,5 +16,5 @@ echo $LASTEXITCODE
 #sleep 1 
 #echo "Hello 3 from pre commit"
 
-exit 1
+#exit 1
 exit $LASTEXITCODE 

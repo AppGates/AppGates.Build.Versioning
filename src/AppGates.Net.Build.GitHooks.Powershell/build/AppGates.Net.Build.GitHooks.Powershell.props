@@ -1,9 +1,4 @@
 ﻿<Project>
 
 
-  <PropertyGroup>
-    <RedirectGitHookPath>$(MSBuildThisFileDirectory)\hooks</RedirectGitHookPath>
-  </PropertyGroup>
-  
-
 </Project>
