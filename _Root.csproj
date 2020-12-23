@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include=".git-ps-hooks\" />
     <Folder Include="src\.git-ps-hooks\" />
   </ItemGroup>
 

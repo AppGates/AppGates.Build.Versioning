@@ -11,8 +11,4 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="build\targets\" />
-  </ItemGroup>
-
 </Project>
