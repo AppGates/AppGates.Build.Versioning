@@ -1,7 +1,7 @@
 param (
-    [Parameter(Mandatory=$true)][string]$hookName,
-    #[Parameter(Mandatory=$true)][string]$username,
-    #[string]$password = $( Read-Host "Input password, please" )
+    [Parameter(Mandatory=$true)][string]$hookName
+    #,[Parameter(Mandatory=$true)][string]$username
+    #,[string]$password = $( Read-Host "Input password, please" )
  )
 
 $pinfo = New-Object System.Diagnostics.ProcessStartInfo
