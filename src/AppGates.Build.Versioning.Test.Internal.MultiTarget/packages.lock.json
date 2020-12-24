@@ -5,8 +5,8 @@
       "AppGates.Build.ApiManagement.Sdk": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.64.1608760523",
-        "contentHash": "bR6aWthtuUDI9aXVYAIIrESoC/RkAzRcWOHck3SWnoFRk87xq3LPyHd1G0bpmjwoOMi2g5Q/QMd6o1zNOf88Gw=="
+        "resolved": "1.1.64.1608760930",
+        "contentHash": "Vs5WjucMxoyyX0wWQ0L6DvWR1Xc5wJGlSD/mBsUjpLw4dNWonONkAIbEnHGJir6o76g/yDW8Rtux7GpS5aDnZw=="
       },
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
@@ -84,8 +84,8 @@
       "AppGates.Build.ApiManagement.Sdk": {
         "type": "Direct",
         "requested": "[*, )",
-        "resolved": "1.1.64.1608760523",
-        "contentHash": "bR6aWthtuUDI9aXVYAIIrESoC/RkAzRcWOHck3SWnoFRk87xq3LPyHd1G0bpmjwoOMi2g5Q/QMd6o1zNOf88Gw=="
+        "resolved": "1.1.64.1608760930",
+        "contentHash": "Vs5WjucMxoyyX0wWQ0L6DvWR1Xc5wJGlSD/mBsUjpLw4dNWonONkAIbEnHGJir6o76g/yDW8Rtux7GpS5aDnZw=="
       },
       "AppGates.Build.Versioning.Test.ExternalLibrary": {
         "type": "Direct",
