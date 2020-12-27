@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Root", "..\_Root.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{31C4B62E-6445-48D8-B748-FA885B432D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Net.Build.GitHooks.Powershell", "AppGates.Net.Build.GitHooks.Powershell\AppGates.Net.Build.GitHooks.Powershell.csproj", "{DB3A885D-345B-4078-B135-3A665C46F3AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.GitHooks.Powershell", "AppGates.Net.Build.GitHooks.Powershell\AppGates.Net.Build.GitHooks.Powershell.csproj", "{DB3A885D-345B-4078-B135-3A665C46F3AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Net.Build.Git.Hooks.Dotnet", "AppGates.Net.Build.Git.Hooks.Dotnet\AppGates.Net.Build.Git.Hooks.Dotnet.csproj", "{9D0675C8-6570-4B02-A624-3FF09047B9B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppGates.Net.Build.Git.Hooks.Dotnet", "AppGates.Net.Build.Git.Hooks.Dotnet\AppGates.Net.Build.Git.Hooks.Dotnet.csproj", "{9D0675C8-6570-4B02-A624-3FF09047B9B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGates.Net.Build.Packaging.AutoPush", "AppGates.Net.Build.Packaging.AutoPush\AppGates.Net.Build.Packaging.AutoPush.csproj", "{5F08FEA5-3760-4229-8B6D-74942940F721}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{9D0675C8-6570-4B02-A624-3FF09047B9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D0675C8-6570-4B02-A624-3FF09047B9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D0675C8-6570-4B02-A624-3FF09047B9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F08FEA5-3760-4229-8B6D-74942940F721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F08FEA5-3760-4229-8B6D-74942940F721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F08FEA5-3760-4229-8B6D-74942940F721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F08FEA5-3760-4229-8B6D-74942940F721}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{B772A285-AC10-4204-8585-144588072E32} = {31C4B62E-6445-48D8-B748-FA885B432D81}
 		{DB3A885D-345B-4078-B135-3A665C46F3AD} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 		{9D0675C8-6570-4B02-A624-3FF09047B9B1} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
+		{5F08FEA5-3760-4229-8B6D-74942940F721} = {FFF8E523-AC7A-41A4-8ED5-BE15D1EF0C14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A1A1C38-2115-4B0C-AC66-0623B2BCB102}
